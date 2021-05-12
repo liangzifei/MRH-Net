@@ -65,7 +65,7 @@ please replace the training analyze target image by your own dMRI data.
         '\AllenPathology2TanzilP60.img']);
 ```        
 training input and target should be corregistered.
-## training your own MRH_network
+## Train your own MRH_network
 
 - In network training(MRH_training.mlx), please change the dMRI input channel according to your own data.
 ```
