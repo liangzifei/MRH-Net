@@ -1,5 +1,5 @@
 # MRH_net_submit
-training a neuro-network from MRI to histology in mouse brain. The unique of our work is that all training or testing based on voxel-wise rather than large patch or slice method which used spatial informatoin basically.
+training a neuro-network from MRI to histology in mouse brain. The unique of our work is that all training or testing based on voxel-wise rather than large patch or slice method which used spatial informatoin traditionally, leading to all information principlly from MRI protocals.
 # Requirements
 - Windows 10
 - Matlab version > 2019b 
@@ -24,7 +24,7 @@ https://www.mathworks.com/products/deep-learning.html
 # Testing
 # Prepare your own data
 
-- in training data preparison, please replace the training analyze images by your own dMRI data.
+- In training data preparison, please replace the training analyze images by your own dMRI data.
 ```
   from (default):
    %dwi2000 is the diffusion data scanned from b=2000
@@ -40,3 +40,8 @@ please replace the training analyze target image by your own dMRI data.
         '\AllenPathology2TanzilP60.img']);
 ```        
 training input and target should be corregistered.
+
+- In network training, please change the dMRI input channel by your own data.
+```
+   from (default):
+   
