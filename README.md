@@ -9,7 +9,7 @@ https://www.mathworks.com/products/deep-learning.html
 
   t-sne toolbox
   https://www.mathworks.com/help/stats/tsne.html
-  ### running proved on 
+  ### Running proved on 
     CUDADevice with properties:
 
                       Name: 'TITAN RTX'
