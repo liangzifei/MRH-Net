@@ -71,7 +71,7 @@ please replace the training analyze target image by your own dMRI data.
 training input and target should be corregistered.
 ## Train your own MRH_network
 
-- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data.
+- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. 
 ```
    from (default):
    
