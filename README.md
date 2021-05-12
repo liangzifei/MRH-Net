@@ -11,7 +11,7 @@ https://www.mathworks.com/products/deep-learning.html
   https://www.mathworks.com/help/stats/tsne.html
   ### Running verified on 
     CUDADevice with properties:
-
+```
                       Name: 'TITAN RTX'
                      Index: 1
          ComputeCapability: '7.5'
@@ -33,7 +33,7 @@ https://www.mathworks.com/products/deep-learning.html
           CanMapHostMemory: 1
            DeviceSupported: 1
             DeviceSelected: 1
-
+```
 # Usage
 - step1. generate training data---MRH_trainingG.m;
 - step2. training a neuro-network from training data---MRH_training.mlx;
