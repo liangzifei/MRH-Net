@@ -11,11 +11,11 @@ https://www.mathworks.com/products/deep-learning.html
   https://www.mathworks.com/help/stats/tsne.html
 
 # Usage
-- step1. generate training data;
-- step2. training a neuro-network from training data;
-- step3. generate testing data;
-- step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network in step2.
-- step5. reconstruct the whole brain virual histology volume from voxel data.
+- step1. generate training data---MRH_trainingG.m;
+- step2. training a neuro-network from training data---MRH_training.mlx;
+- step3. generate testing data---MRH_testingG.m;
+- step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network in step2--- MRH_testing.mlx.
+- step5. reconstruct the whole brain virual histology volume from voxel data---MRH_recon.m.
 # Training
 - prepare training data using code trainingXXX.m
 
