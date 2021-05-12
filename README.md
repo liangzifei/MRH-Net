@@ -22,7 +22,7 @@ https://www.mathworks.com/products/deep-learning.html
     Please locate the data in one folder: named folder_dwi in the code.
 
 # Testing
-# Prepare your own data
+# Prepare your own data(In our work the testing alreay conducted on shiever mouse brain, while training on healthy mouse brains)
 
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
