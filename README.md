@@ -9,6 +9,30 @@ https://www.mathworks.com/products/deep-learning.html
 
   t-sne toolbox
   https://www.mathworks.com/help/stats/tsne.html
+  ### running proved on 
+    CUDADevice with properties:
+
+                      Name: 'TITAN RTX'
+                     Index: 1
+         ComputeCapability: '7.5'
+            SupportsDouble: 1
+             DriverVersion: 10.1000
+            ToolkitVersion: 10.1000
+        MaxThreadsPerBlock: 1024
+          MaxShmemPerBlock: 49152
+        MaxThreadBlockSize: [1024 1024 64]
+               MaxGridSize: [2.1475e+09 65535 65535]
+                 SIMDWidth: 32
+               TotalMemory: 2.5770e+10
+           AvailableMemory: 1.7937e+10
+       MultiprocessorCount: 72
+              ClockRateKHz: 1770000
+               ComputeMode: 'Default'
+      GPUOverlapsTransfers: 1
+    KernelExecutionTimeout: 1
+          CanMapHostMemory: 1
+           DeviceSupported: 1
+            DeviceSelected: 1
 
 # Usage
 - step1. generate training data---MRH_trainingG.m;
