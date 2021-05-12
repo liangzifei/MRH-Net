@@ -1,5 +1,5 @@
 # MRH_net_submit
-training a neuro-network from MRI to histology in mouse brain. The unique of our work is that all training or testing based on voxel-wise rather than large patche or slice which used spatial informatoin mainly.
+training a neuro-network from MRI to histology in mouse brain. The unique of our work is that all training or testing based on voxel-wise rather than large patch or slice method which used spatial informatoin basically.
 # Requirements
 - Windows 10
 - Matlab version > 2019b 
