@@ -47,13 +47,14 @@ https://www.mathworks.com/products/deep-learning.html
 
 # Testing
 # Prepare your own data
-### (In our work, the testing alreay conducted on shiever mouse brain, while training on healthy mouse brains. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work is not from training group). 
+#### (In our work, the testing alreay conducted on shiever mouse brain, while training on healthy mouse brains. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work is not from training group). 
 One example result as following: 
-### training on health, testing on both health(top) and shiever(bottom) strain.
+#### training on health, testing on both health(top) and shiever(bottom) strain.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
 ## specific steps to prepare yourself training and testing
+### step1. In training data preparison(MRH_trainingG.m)
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
   from (default):
@@ -70,7 +71,7 @@ please replace the training analyze target image by your own dMRI data.
         '\AllenPathology2TanzilP60.img']);
 ```        
 training input and target should be corregistered.
-## Train your own MRH_network
+## step2. In network training(MRH_training.mlx)
 
 - In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. 
 ```
