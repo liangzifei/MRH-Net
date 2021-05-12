@@ -25,7 +25,8 @@ https://www.mathworks.com/products/deep-learning.html
 # Prepare your own data
 
 - in training data preparison, please replace the training analyze images by your own dMRI data.
-```from (default):
+```
+  from (default):
    %dwi2000 is the diffusion data scanned from b=2000
     dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
    %dwi5000 is diffusion b=5000 data
@@ -34,7 +35,7 @@ https://www.mathworks.com/products/deep-learning.html
 ```
 please replace the training analyze target image by your own dMRI data.
 ```
-    from (default):
+   from (default):
     fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
 ```        
