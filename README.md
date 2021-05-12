@@ -5,6 +5,9 @@ training a neuro-network from MRI to histology in mouse brain
 - Matlab version > 2019b 
 - Deep learning toolbox.
 https://www.mathworks.com/products/deep-learning.html
+- Optional
+  t-sne toolbox
+  https://www.mathworks.com/help/stats/tsne.html
 
 # Usage
 - step1. generate training data;
