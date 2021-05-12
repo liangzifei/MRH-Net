@@ -41,7 +41,7 @@ please replace the training analyze target image by your own dMRI data.
 ```        
 training input and target should be corregistered.
 
-- In network training, please change the dMRI input channel by your own data.
+- In network training(MRH_training.mlx), please change the dMRI input channel by your own data.
 ```
    from (default):
    
