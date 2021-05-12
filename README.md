@@ -24,7 +24,7 @@ https://www.mathworks.com/products/deep-learning.html
 # Testing
 # Prepare your own data
 
-- In training data preparison, please replace the training analyze images by your own dMRI data.
+- In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
   from (default):
    %dwi2000 is the diffusion data scanned from b=2000
