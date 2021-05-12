@@ -49,7 +49,7 @@ https://www.mathworks.com/products/deep-learning.html
 # Prepare your own data
 ### (In our work, the testing alreay conducted on shiever mouse brain, while training on healthy mouse brains. This verified the MRH_net generalise to other data. Additionally, all test subjects in our work is not from training group). 
 One example result as following: 
-### training on health, testing on both health and shiever strain.
+### training on health, testing on both health(top) and shiever(bottom) strain.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
