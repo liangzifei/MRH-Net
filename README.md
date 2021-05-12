@@ -14,5 +14,7 @@ https://www.mathworks.com/products/deep-learning.html
 - step5. reconstruct the whole brain virual histology volume from voxel data.
 # Training
 - prepare training data using code trainingxxx.m
+'''
+Please locate the data in one folder: 
 # Testing
 # Prepare your own data
