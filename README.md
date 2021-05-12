@@ -17,7 +17,7 @@ https://www.mathworks.com/products/deep-learning.html
 - step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network in step2.
 - step5. reconstruct the whole brain virual histology volume from voxel data.
 # Training
-- prepare training data using code trainingxxx.m
+- prepare training data using code trainingXXX.m
 
     Please locate the data in one folder: named folder_dwi in the code.
 
