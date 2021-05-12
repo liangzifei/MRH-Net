@@ -1,5 +1,5 @@
 # MRH_net_submit
-training a neuro-network from MRI to histology in mouse brain
+training a neuro-network from MRI to histology in mouse brain. The unique of our work is that all training or testing based on voxel-wise rather than large patche or slice which used spatial informatoin mainly.
 # Requirements
 - Windows 10
 - Matlab version > 2019b 
@@ -21,13 +21,12 @@ https://www.mathworks.com/products/deep-learning.html
 
     Please locate the data in one folder: named folder_dwi in the code.
 
-
 # Testing
 # Prepare your own data
+
 - in training data preparison, please replace the training analyze images by your own dMRI data.
 
    from (default):
-   
    %dwi2000 is the diffusion data scanned from b=2000
     dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
    %dwi5000 is diffusion b=5000 data
