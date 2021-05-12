@@ -31,7 +31,7 @@ https://www.mathworks.com/products/deep-learning.html
    %dwi5000 is diffusion b=5000 data
     dwi5000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi5000.img']);
     t2MTONOFF = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_lddm_t2MTONOFF.img']);
-    ```
+```
 please replace the training analyze target image by your own dMRI data.
 ```
     from (default):
