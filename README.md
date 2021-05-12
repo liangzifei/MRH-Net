@@ -53,7 +53,7 @@ One example result as following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
-## specific steps to prepare yourself training and testing
+## Specific steps to prepare yourself training and testing
 ### step1. In training data preparison(MRH_trainingG.m)
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
