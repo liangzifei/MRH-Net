@@ -1,5 +1,6 @@
 # Transfer learning 
-## Transfer from general auto-fluorescence MRH network to specific histology contrast, such as myelin/axon.
+## Transfer from general auto-fluorescence MRH network to specific histology contrast, such as myelin/axon. 
+(The trained network from transferlearning is the same structure and format from MRH_training.mlx. Therefore, same use in testing steps)
 
 ### The general idea of transfer learning is the following:
 
