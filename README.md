@@ -64,7 +64,7 @@ Our exampled trained networks located in folder /network.
 
 One exmpled training curve from auto-fluorescence is the following:
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Training_CurveFlurescence.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Training_CurveFluorescence.jpg)
 
 # Testing
 - prepare testing data using code
