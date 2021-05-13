@@ -73,7 +73,7 @@ please replace the training analyze target image by your own dMRI data.
 training input and target should be corregistered.
 ## step2. In network training(MRH_training.mlx)
 
-- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. 
+- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. load_mat is the location of your training .mat file. Depth is the length of Residual blocks of the training network.
 ```
    from (default):
      load_mat =['F:\Code\SRCNN\Fluorescence\traindata.mat'];
@@ -84,3 +84,4 @@ training input and target should be corregistered.
      %3 is tested and verified on MR to myelin network training
      depth = 30;
 ```
+## step3. In testing data preparison(MRH_testing.m)
