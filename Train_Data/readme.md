@@ -1,1 +1,2 @@
-# Example of prepared training data examples
+# Example of prepared training data
+## Generated from MRH_trainingG.m
