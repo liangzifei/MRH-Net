@@ -20,6 +20,9 @@
 %'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'],...
 %3,20)
 %  - Zifei Liang (zifei.liang@nyumc.org)
+% Using code please refer our work: 
+% Inferring Maps of Cellular Structures from MRI Signals using Deep Learning 
+% https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 
 function [data,label] = MRH_trainingG(folder_dwi, halfsize_input, stride)
 % folder_dwi =['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
