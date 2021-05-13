@@ -39,7 +39,7 @@ https://www.mathworks.com/products/deep-learning.html
 - step2. training a neuro-network from training data---MRH_training.mlx;
 - step3. generate testing data---MRH_testingG.m;
 - step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network in step2--- MRH_testing.mlx.
-- step5. reconstruct the whole brain virual histology volume from voxel data---MRH_recon.m.
+- step5. reconstruct the whole brain/one slice virual histology volume from voxel data---MRH_recon.m.
 # Training
 - prepare training data using code trainingXXX.m
 
@@ -84,7 +84,7 @@ training input and target should be corregistered.
      %3 is tested and verified on MR to myelin network training
      depth = 30;
 ```
-## step3. In testing data preparison(MRH_testing.m)
+## step3. In testing data preparison(MRH_testingG.m)
 - In testing data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data. and axon_img is the reference data for comparison.
 ```
 from(default):
@@ -96,3 +96,4 @@ from(default):
     axon_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\',...
         'JesseGray\JesseGray20191223\Porcessed\Axon_to_C',num2str(sample_img),'.img']);
 ```
+## step4. Vitual histology pixels generation from testing data using trained MRH_network(MRH_testing.m)
