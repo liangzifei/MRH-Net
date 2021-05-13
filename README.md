@@ -56,6 +56,9 @@ One example shiever mouse virtual myelin result as following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
+### More virtual myelinexmple: top health and bottom 3 different shiever subjects
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
+
 # Transfer Learning
 - Transfer Learning peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
