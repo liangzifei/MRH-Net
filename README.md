@@ -147,6 +147,9 @@ In our work, the following tools are used:
 Optional:
 1. ANTs 
 ```
+And JHU_P60 atlas work as an Intermediary to assistent registration. JHU_P60 atlas is uploaded online: https://osf.io/rnsjv/
+
+
 ### step1. In training data preparison(MRH_trainingG.m)
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
