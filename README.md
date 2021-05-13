@@ -80,7 +80,7 @@ learningRateFactor = 0.1;
 
 # Prepare your own data(without training)
 
-Please refer to our gradient table and data to prepare your own data. Our pre-trained network in folder /network could be generalise to other data, using the identical MRI contrasts as our listed example data online().
+Please refer to our gradient table and data to prepare your own data. Our pre-trained network in folder /network could be generalise to other data, as long as USERS using the identical MRI contrasts as our listed example data online().
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
