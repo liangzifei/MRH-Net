@@ -52,7 +52,7 @@ https://www.mathworks.com/products/deep-learning.html
 
 #### (In our work, the testing alreay conducted on many healthy and shiever mouse brain, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
 One example shiever mouse virtual myelin result as following: 
-#### training on health, testing on both health(top) and shiever(bottom) strain.
+#### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
