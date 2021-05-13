@@ -8,3 +8,10 @@
 ### The transfer learning applied in our work is the following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Network.jpg)
+
+## Example of training curve from transfer learning:
+
+## Example of generated virtual myelin from transfer learning:
+https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg
+Compare to previous without transfer learning:
+https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg
