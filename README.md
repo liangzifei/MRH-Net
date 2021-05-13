@@ -55,6 +55,29 @@ One example result as following:
 #### training on health, testing on both health(top) and shiever(bottom) strain.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
+
+# Transfer Learning
+- Transfer Learning peformed with the principally the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
+Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
+```
+newLearnableLayer4 = convolution2dLayer(3,64,'Padding','same', ...
+    'Name','new_Conv4', ...
+    'WeightLearnRateFactor',10, ...
+    'BiasLearnRateFactor',10);
+newLearnableLayer5 = convolution2dLayer(3,1,'Padding','same', ...
+    'Name','new_Conv5', ...
+    'WeightLearnRateFactor',10, ...
+    'BiasLearnRateFactor',10);
+newfinallayer = regressionLayer('Name','FinalRegressionLayer')
+
+lgraph = replaceLayer(lgraph,'Conv4',newLearnableLayer4);
+lgraph = replaceLayer(lgraph,'Conv5',newLearnableLayer5);
+lgraph = replaceLayer(lgraph,'FinalRegressionLayer',newfinallayer)
+
+initLearningRate = 1e-4;
+learningRateFactor = 0.1;
+```
+
 # Prepare your own data(without training)
 
 Please refer to our gradient table and data to prepare your own data. Our pre-trained network in folder /network could be generalise to other data, using the identical MRI contrasts as our listed example data online().
