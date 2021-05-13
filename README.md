@@ -49,7 +49,7 @@ https://www.mathworks.com/products/deep-learning.html
 demo_trainingG.m call function MRH_trainingG.m
 (please put the data and files as recommedded in the code)
 ```
-After running, the prepared training data will be saved in .mat that consists data as input MRI and label as target histology.
+After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
 
 One example .mat file located in folder /Train_Data
 
@@ -68,10 +68,25 @@ Our exampled trained networks located in folder /network.
 ```
 demo_testingG.m call function MRH_testingG.m
 ```
+After running, the prepared testing data will be saved in .mat that consists: data as input MRI and label as target histology.
+
+One example .mat file located in folder /Test_Data
+
 - generate vitual histology voxel by voxel using code
 ```
 demo_testing.m call function MRH_testing.m
 ```
+After running, the voxel-wised histoloty will be saved in .mat format.
+
+Our exampled voxel-wised histology located in folder /Output.
+
+- Reconstruct slice/volume histology from voxel-wised data using code
+```
+MRH_recon.m
+```
+After running, the virtual histology will show up dierctly.(The code offered is based on slice generation, 3D volume need loop running slice code by USER)
+
+Our exampled virtual histology data are located in folder /Output.
 
 #### (In our work, the testing alreay conducted on many healthy and shiever mouse brain, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
 One example shiever mouse virtual myelin result as following: 
