@@ -102,6 +102,7 @@ One example shiever mouse virtual myelin result as following:
 
 # Transfer Learning
 - Transfer Learning peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
+
 Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
 ```
 newLearnableLayer4 = convolution2dLayer(3,64,'Padding','same', ...
@@ -120,6 +121,12 @@ lgraph = replaceLayer(lgraph,'FinalRegressionLayer',newfinallayer)
 
 initLearningRate = 1e-4;
 learningRateFactor = 0.1;
+```
+- Detail transfer learning conduction can also refer Usage: step1-5. Except that the code running needs one pre-trained network as input:
+```
+net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
+default is trained from autofluorescence in our paper.
+pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 
 # Prepare your own data(without training)
