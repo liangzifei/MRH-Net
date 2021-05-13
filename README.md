@@ -76,4 +76,11 @@ training input and target should be corregistered.
 - In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. 
 ```
    from (default):
-   
+     load_mat =['F:\Code\SRCNN\Fluorescence\traindata.mat'];
+     input_channel = 67;
+     % 30 is used in the paper for auto-fluorescence training task, 
+     %as large amount data accessable from allen.
+     % Shorter is more resaonable under the condition limited training data offered.
+     %3 is tested and verified on MR to myelin network training
+     depth = 30;
+```
