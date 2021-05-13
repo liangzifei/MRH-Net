@@ -7,4 +7,4 @@
 
 ### The transfer learning applied in our work is the following:
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/transfer_learning_general.png)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Network.jpg)
