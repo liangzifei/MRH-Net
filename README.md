@@ -87,8 +87,7 @@ MRH_recon.m
 After running, the virtual histology will show up dierctly.(The code offered is based on slice generation, 3D volume need loop running slice code by USER)
 
 Our exampled virtual histology data are located in folder /Output.
-## Sampled exmples are shown as the following:
-
+## Sampled exmples of them are shown as the following:
 #### (In our work, the testing alreay conducted on many healthy and shiever mouse brain, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
 One example shiever mouse virtual myelin result as following: 
 #### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
@@ -180,3 +179,4 @@ from(default):
         'JesseGray\JesseGray20191223\Porcessed\Axon_to_C',num2str(sample_img),'.img']);
 ```
 ## step4. Vitual histology pixels generation from testing data using trained MRH_network(MRH_testing.m)
+## step5. Vitual histology reconstruction from pixels
