@@ -47,13 +47,16 @@ https://www.mathworks.com/products/deep-learning.html
 - prepare training data using code 
 ```
 demo_trainingG.m call function MRH_trainingG.m
-(please put the data and files as refered in the code)
+(please put the data and files as recommedded in the code)
 ```
+after running the prepared training data will be saved in .mat that consists data as input MRI and label as target histology.
+
 - training the network using code
 
 ```
 demo_training.m call function MRH_training.mlx
 ```
+after running the network will be saved in .mat format.
 
 # Testing
 
