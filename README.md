@@ -62,6 +62,9 @@ After running, the network will be saved in .mat format.
 
 Our exampled trained networks located in folder /network.
 
+One exmpled training curve from auto-fluorescence is the following:
+
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Training_CurveFlurescence.jpg)
 
 # Testing
 - prepare testing data using code
