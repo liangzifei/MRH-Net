@@ -97,7 +97,7 @@ One example shiever mouse virtual myelin result as following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
-#### More virtual myelinexmple: top health and bottom 3 different shiever subjects
+#### More virtual myelin exmple: top health and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
 # Transfer Learning
