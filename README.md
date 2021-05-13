@@ -47,7 +47,7 @@ https://www.mathworks.com/products/deep-learning.html
 
 # Testing
 # Prepare your own data
-#### (In our work, the testing alreay conducted on shiever mouse brain, while training on healthy mouse brains. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work is not from training group). 
+#### (In our work, the testing alreay conducted on shiever mouse brain, while training on healthy mouse brains. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
 One example result as following: 
 #### training on health, testing on both health(top) and shiever(bottom) strain.
 
