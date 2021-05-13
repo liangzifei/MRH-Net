@@ -73,15 +73,26 @@ please replace the training analyze target image by your own dMRI data.
 training input and target should be corregistered.
 ## step2. In network training(MRH_training.mlx)
 
-- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. load_mat is the location of your training .mat file. Depth is the length of Residual blocks of the training network.
+- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. load_mat is the location of your training .mat file. Depth is the length of Residual blocks used in the trained network.
 ```
    from (default):
      load_mat =['F:\Code\SRCNN\Fluorescence\traindata.mat'];
      input_channel = 67;
      % 30 is used in the paper for auto-fluorescence training task, 
      %as large amount data accessable from allen.
-     % Shorter is more resaonable under the condition limited training data offered.
+     % Shorter is preferable under the condition limited training data offered.
      %3 is tested and verified on MR to myelin network training
      depth = 30;
 ```
 ## step3. In testing data preparison(MRH_testing.m)
+- In testing data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data. and axon_img is the reference data for comparison.
+```
+from(default):
+    dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
+    dwi5000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi5000.img']);
+    t2MTONOFF = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_lddm_t2MTONOFF.img']);
+    fa_img = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_fa.img']);
+    fa_mask = load_untouch_nii([folder_dwi,num2str(sample_img),'\Masked_outline.img']);
+    axon_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\',...
+        'JesseGray\JesseGray20191223\Porcessed\Axon_to_C',num2str(sample_img),'.img']);
+```
