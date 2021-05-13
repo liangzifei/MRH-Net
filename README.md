@@ -147,7 +147,9 @@ In our work, the following tools are used:
 Optional:
 1. ANTs 
 ```
-And JHU_P60 atlas work as an Intermediary to assistent registration. JHU_P60 atlas is uploaded online: https://osf.io/rnsjv/
+And JHU_P60 atlas could work as an Intermediary to assistent registration. 
+
+JHU_P60 atlas is generated from averaging 10 mouse subjects and uploaded online: https://osf.io/rnsjv/
 
 
 ### step1. In training data preparison(MRH_trainingG.m)
