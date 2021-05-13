@@ -9,7 +9,8 @@
 %--- default=1 means the pathsize is 2*1+1 = 3
 % stride: the sample location of the training coordinates within a 3D brain
 % grids. --- default =20 means sample on point every 20 pixels
-%
+% (User, by self, can exclude pixels that are cracked or missed in Histology, espcially void ventrical pixels,
+% to mitigate these noisy pixels influence to succeeding network training). 
 % Output(saved):
 %
 % data: is a 3x3xMxN matrix that for nerual network input.
