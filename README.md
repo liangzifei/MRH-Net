@@ -125,7 +125,8 @@ learningRateFactor = 0.1;
 - Detail transfer learning conduction can also refer Usage: step1-5. Except that the code running needs one pre-trained network as input:
 ```
 net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
-default is trained from autofluorescence in our paper.
+
+default pre_network is trained from autofluorescence in our paper.
 pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 
