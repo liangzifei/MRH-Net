@@ -55,10 +55,13 @@ One example result as following:
 #### training on health, testing on both health(top) and shiever(bottom) strain.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
-# Prepare your own data(without training)
+# Prepare your own data(without training using our pre-trained model)
+
 Please refer to our gradient table and data to prepare your own data. Our pre-trained network in folder /network could be generalise to other data, using the identical MRI contrasts as our listed example data online().
+
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
+
 ### step1. In training data preparison(MRH_trainingG.m)
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
