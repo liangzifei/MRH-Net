@@ -57,7 +57,7 @@ One example result as following:
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
 # Transfer Learning
-- Transfer Learning peformed with the principally the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
+- Transfer Learning peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
 ```
 newLearnableLayer4 = convolution2dLayer(3,64,'Padding','same', ...
