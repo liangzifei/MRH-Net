@@ -14,6 +14,8 @@
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/TrainingCurve.jpg)
 
 ## Example of generated virtual myelin from transfer learning:
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg)
-Compare to previous without transfer learning:
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Transfer_fromAutofluo.jpg)
+
+Compare to one previous example without transfer learning:
+
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg)
