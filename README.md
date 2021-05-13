@@ -61,8 +61,14 @@ Please refer to our gradient table and data to prepare your own data. Our pre-tr
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
-Before training the MR and histology data needs to be cooregistered. Any tool achieving accurate voxel-wise registration is good candidate. 
-In our work the following tools are used:
+Before training the MR and histology data needs to be cooregistered. Any tool achieving accurate voxel-wise registration is a good candidate. 
+In our work, the following tools are used:
+1. MRIStudio https://cmrm.med.jhmi.edu/
+2. Diffeomap https://www.mristudio.org/installation.html
+3. Mrtrix https://www.mrtrix.org/
+4. ImageJ https://imagej.net/Registration
+Optional:
+1. ANTs 
 
 ### step1. In training data preparison(MRH_trainingG.m)
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
