@@ -12,6 +12,6 @@
 ## Example of training curve from transfer learning:
 
 ## Example of generated virtual myelin from transfer learning:
-https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg)
 Compare to previous without transfer learning:
-https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg)
