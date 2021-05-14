@@ -145,7 +145,7 @@ lgraph = replaceLayer(lgraph,'FinalRegressionLayer',newfinallayer)
 initLearningRate = 1e-4;
 learningRateFactor = 0.1;
 ```
-- Detail transfer learning conduction can also refer Usage: step1-5. Except that the code running needs one pre-trained network as input:
+- Detail transfer learning execution can also refer Usage: step1-5. Except that the code running needs one pre-trained network as input:
 ```
 net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
 
