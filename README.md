@@ -63,7 +63,7 @@ work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 ```
 >All MRI data upload online, specifically, please refer /Train_Data
 
->Histology location in code is:
+>Histology(can replace by USER defined histology) location in code is:
 ```
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
