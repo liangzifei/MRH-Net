@@ -8,6 +8,7 @@ https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 - Matlab version > 2019b 
 - Deep learning toolbox.
 https://www.mathworks.com/products/deep-learning.html
+- CUDA
 - Optional
 
   t-sne toolbox
