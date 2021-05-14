@@ -113,15 +113,6 @@ MRH_recon.m
 >After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop slices as recommended in code)
 
 >Our exampled virtual histology data are located in folder /Output.
-## Exmples of our vitural histology are shown as the following:
-#### (In our work, the testing alreay conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
->One example shiever mouse virtual myelin result as following: 
-#### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
-
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
-
-#### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
 ## Fast demo test(auto-fluorescence) running please run:
 >>(Put data files as refered in the code)
@@ -129,7 +120,6 @@ MRH_recon.m
 demo_testing.m 
 MRH_recon.m
 ```
-
 # Transfer Learning
 - Transfer Learning is prepared under the situation that no much histology are avaliable. For example, we have many auto-fluorescence, however, myelin/axon are in shortage. The idea here is Transfer learning from pre-trained MRH-autofluorescence network. It is peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 
@@ -164,11 +154,20 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 demo_transfer.m
 ```
+## Exmples of our vitural histology are shown as the following:
+#### (In our work, the testing alreay conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
+>One example shiever mouse virtual myelin result as following: 
+#### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
 
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
+
+#### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 # Prepare your own data(without training)
 
 Please refer to our gradient table and data prepared online to prepare your own data. Our pre-trained network in folder /network could generalise to other data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
 
+#### ##########################################################################################################
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
 Before training the MR and histology data needs to be cooregistered. Any tool achieving accurate voxel-wise registration is a good candidate. 
