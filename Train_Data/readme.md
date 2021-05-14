@@ -1,7 +1,7 @@
 # Training data resources
 ## Input subjects for MRH_trainingG.m
 ### Training input
-- 1. The MRI subjects resource, used for MR_autofluorescence, MR_axon and MR_myelin, is uploaded online(limited by datasize, 3 subjects offered. 6 subjects used in our online published work):
+- 1. The MRI subjects resource, used for MR_autofluorescence, MR_axon and MR_myelin, is uploaded online(limited by datasize, 4 subjects offered. 6 subjects used in our online published work):
 ```
 https://osf.io/8jh7b/
 ```
