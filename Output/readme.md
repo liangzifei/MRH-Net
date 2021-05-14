@@ -20,3 +20,7 @@ MRH_myelin_outputHealth.zip is the reconstructed 3d virtual healthy subject from
 ```
 MRH_myelin_outputShiever.zip is the reconstructed 3d virtual sheiver subject from MRH_myelin.
 ```
+# Examples of voxel-wise vitual histology from MRH_autofluo in our paper
+```
+/Output/YPred_audo.mat
+```
