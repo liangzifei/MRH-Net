@@ -1,4 +1,4 @@
-# Example of vitual histology from MRH_histology
+# Examples of vitual histology from MRH_histology in our paper
 
 - Example output from our trained MRH_autofluo network:
 ```
