@@ -20,7 +20,7 @@ https://osf.io/n3vwf/
 ```
 https://osf.io/mx3kz/
 ```
-4. Nissl in P60 space:
+4. Nissl(in P60 space):
 ```
 https://osf.io/hk2pv/
 ```
