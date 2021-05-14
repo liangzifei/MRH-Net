@@ -115,7 +115,7 @@ MRH_recon.m
 
 >Our exampled virtual histology data are located in folder /Output.
 
-## Fast demo test(auto-fluorescence) running please run:
+## Fast demo test (auto-fluorescence) please run:
 >>(Put data files as refered in the code)
 ```
 demo_testing.m 
@@ -158,7 +158,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 /Transfer_Learning/demo_fastTest_Trans.m
 ```
 ## Exmples results of our vitural histology are shown as the following:
-#### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
+#### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, no test subject, in our work, is from training subjects). 
 >One example shiever mouse virtual myelin result as following: 
 #### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
 
@@ -171,8 +171,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 # Prepare your own data(without training)
 
-Please refer to our gradient table and data prepared online(refer /Test_Data) to prepare your own data. Our pre-trained network in folder /network could generalise to other data with the same scanner as our Test_Data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
-
+Please refer to our gradient table and data prepared online(refer /Test_Data) to prepare your own data. Our pre-trained network in folder /network could generalise to other data with the same scanner as our Test_Data. USERS need use the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resourc
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
