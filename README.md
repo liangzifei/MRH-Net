@@ -79,7 +79,7 @@ After running, the network will be saved in .mat format.
 
 Our exampled trained networks located in folder /network.
 
-One exmple smoothed training curve from auto-fluorescence is the following:
+One exmple smoothed training curve from MR_auto-fluorescence is the following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Training_CurveFluorescence.jpg)
 
