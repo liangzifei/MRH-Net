@@ -10,4 +10,5 @@ Testing subject MRI resource uploaded online(shiever subject, using gradient tab
 
 > (the subject could be used to test MR_autofluorescence, MR_myelin/axon networks)
 
-## Output .mat from MRH_testingG.m
+## Output example .mat from MRH_testingG.m
+>> testdataPatch_mouse.mat under /Test_Data
