@@ -26,7 +26,7 @@ https://osf.io/n3vwf/
 ```
 https://osf.io/mx3kz/
 ```
-- 4. Nissl(in P60 space):
+- 4. Nissl(in P60 space, to achiever better performance, further accurate registratoion could be conducted by USER):
 ```
 https://osf.io/hk2pv/
 ```
