@@ -124,9 +124,10 @@ MRH_recon.m
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
 ## Fast demo test running please run:
-
+>>(Put data files as refered in the code)
 ```
-demo_transfer.m
+demo_testing.m 
+MRH_recon.m
 ```
 
 # Transfer Learning
