@@ -36,3 +36,8 @@ One example .mat is saved online(about 40,000 patches are generated from matched
 
 >> https://osf.io/fk58t/
 
+## Output training .mat from MRH_trainingG.m for Transfer Learning
+
+(about 40,000 patches are generated from matched MRI and myelin):
+
+>> https://osf.io/rw42b/
