@@ -92,7 +92,7 @@ demo_training.m (call function MRH_training.mlx)
 # Testing
 - prepare testing data using code
 ```
-demo_testingG.m call function MRH_testingG.m
+demo_testingG.m (call function MRH_testingG.m)
 ```
 >After running, the prepared testing data will be saved in .mat that consists: data as input MRI and label as target histology.
 
@@ -100,7 +100,7 @@ demo_testingG.m call function MRH_testingG.m
 
 - generate vitual histology voxel by voxel using code
 ```
-demo_testing.m call function MRH_testing.m
+demo_testing.m (call function MRH_testing.m)
 ```
 >After running, the voxel-wised histoloty will be saved in .mat format.
 
