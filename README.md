@@ -167,7 +167,7 @@ demo_transfer.m
 
 Please refer to our gradient table and data prepared online to prepare your own data. Our pre-trained network in folder /network could generalise to other data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
 
-#### ##########################################################################################################
+#### `##########################################################################################################
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
 Before training the MR and histology data needs to be cooregistered. Any tool achieving accurate voxel-wise registration is a good candidate. 
