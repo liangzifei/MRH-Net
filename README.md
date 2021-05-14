@@ -167,7 +167,7 @@ demo_transfer.m
 
 # Prepare your own data(without training)
 
-Please refer to our gradient table and data to prepare your own data. Our pre-trained network in folder /network could be generalise to other data, as long as USERS using the identical MRI contrasts as our listed example data online().
+Please refer to our gradient table and data prepared online to prepare your own data. Our pre-trained network in folder /network could generalise to other data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
