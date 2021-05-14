@@ -43,7 +43,8 @@ https://www.mathworks.com/products/deep-learning.html
 - step3. generate testing data---MRH_testingG.m;
 - step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network in step2--- MRH_testing.mlx.
 - step5. reconstruct the whole brain/one slice virual histology volume from voxel data---MRH_recon.m.
-# Training (We provide many training resources under /Training_data)
+# Training 
+> (We provide many training resources under /Training_data)
 - prepare training data, use code 
 ```
 demo_trainingG.m call function MRH_trainingG.m
