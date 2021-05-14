@@ -110,7 +110,7 @@ demo_testing.m call function MRH_testing.m
 ```
 MRH_recon.m
 ```
->After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop running slices)
+>After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop slices as recommended in code)
 
 >Our exampled virtual histology data are located in folder /Output.
 ## Sampled exmples of our vitural histology output are shown as the following:
