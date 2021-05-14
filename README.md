@@ -38,8 +38,8 @@ https://www.mathworks.com/products/deep-learning.html
             DeviceSelected: 1
 ```
 # Usage
-- step1. generate training data---MRH_trainingG.m;
-- step2. training a neuro-network from training data---MRH_training.mlx;
+- step1. generate training samples---MRH_trainingG.m;
+- step2. training a neuro-network from training samples---MRH_training.mlx;
 - step3. generate testing data---MRH_testingG.m;
 - step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network in step2--- MRH_testing.mlx.
 - step5. reconstruct the whole brain/one slice virual histology volume from voxel data---MRH_recon.m.
