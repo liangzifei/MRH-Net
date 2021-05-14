@@ -1,10 +1,10 @@
 # Example of prepared training data
 ## Input subjects for MRH_trainingG.m
-The subjects MRI data, used in our work for training data generation, is uploaded online(limited by datasize, 3 subjects offered. 6 subjects used in our online published work):
+The subjects MRI data resource, used in our work for training data generation, is uploaded online(limited by datasize, 3 subjects offered. 6 subjects used in our online published work):
 ```
 https://osf.io/8jh7b/
 ```
-The subjects Histology target data, is uploaded online:
+The subjects Histology target data resource, is uploaded online:
 1. Auto-fluorescence:
 ```
 https://osf.io/nax8y/
