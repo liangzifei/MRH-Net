@@ -151,10 +151,10 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 - Our prepared training .mat for transfer learning is uploaded online, please refer under /Train_data.
 
-## Fast demo test(myelin) running please run:
+## Fast demo test(myelin) running please run demo:
 
 ```
-demo_transfer.m
+/Transfer_Learning/demo_fastTest_Trans.m
 ```
 ## Exmples results of our vitural histology are shown as the following:
 #### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
