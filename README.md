@@ -230,7 +230,7 @@ load_data = 'testdataPatch_mouse.mat';
 load_net = 'net_30layerV3Res_HRJG_allMRIs_onesample2fluo5000d.mat';
 ```
 ## step5. Vitual histology reconstruction from pixels
-- In virtual histology contrast reconstruction(MRH_recon.m), please replace the slice parameters with the USERS.
+- In virtual histology contrast reconstruction(MRH_recon.m), please replace the slice parameters by USERS.
 ```
 from(default):
 hei = 200; wid = 128;
