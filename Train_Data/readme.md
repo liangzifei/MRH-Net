@@ -14,7 +14,7 @@ The subjects Histology target data resource, is uploaded online:
 
 >> https://osf.io/nax8y/
 
-> Only part of examples uploaded, more than 1,000 auto-fluorescence data offered by allen group. Please acquire online from: http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI
+> Only part of examples uploaded, more than 2,000 auto-fluorescence data offered by allen group. Please acquire online from: http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI
 
 - 2. Axon:
 
