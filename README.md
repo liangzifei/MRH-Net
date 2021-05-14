@@ -130,7 +130,7 @@ demo_transfer.m
 ```
 
 # Transfer Learning
-- Transfer Learning peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
+- Transfer Learning is prepared under the situation that no much histology are avaliable. For example, we have many auto-fluorescence, however, myelin/axon are in shortage. The idea here is Transfer learning from pre-trained MRH-autofluorescence network. It is peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 
 >Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
 ```
