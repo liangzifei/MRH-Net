@@ -117,6 +117,12 @@ One example shiever mouse virtual myelin result as following:
 #### More virtual myelin exmple: top health and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
+## Fast demo test running please run:
+
+```
+demo_transfer.m
+```
+
 # Transfer Learning
 - Transfer Learning peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 
@@ -149,8 +155,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ## Fast demo test running please run:
 
 ```
-demo_testing.m
-MRH_recon.m
+demo_transfer.m
 ```
 
 # Prepare your own data(without training)
