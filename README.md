@@ -50,7 +50,7 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
 > (We provide many training resources under /Training_data)
 - prepare training data, use code 
 ```
-demo_trainingG.m call function MRH_trainingG.m
+demo_trainingG.m (call function MRH_trainingG.m)
 (please put the data and files as recommedded in the code)
 ```
 >The training preparison requirments mainly consist: MRI data and target histology two parts.
@@ -77,7 +77,7 @@ work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 - training the network using code
 
 ```
-demo_training.m call function MRH_training.mlx
+demo_training.m (call function MRH_training.mlx)
 ```
 >After running, the network will be saved in .mat format.
 
