@@ -50,17 +50,17 @@ https://www.mathworks.com/products/deep-learning.html
 demo_trainingG.m call function MRH_trainingG.m
 (please put the data and files as recommedded in the code)
 ```
->The input of Training generate mainly consists: MRI data and target histology two parts.
+>The training preparison requirments mainly consist: MRI data and target histology two parts.
 
 >Taken Auto-fluorescence as an example:
->MRI location is:
+>MRI location in code is:
 ```
 work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
 ```
 >All MRI data upload on line, specifically, please refer /Train_Data
 
->Histology location is:
+>Histology location in code is:
 ```
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
