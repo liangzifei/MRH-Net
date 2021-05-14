@@ -12,8 +12,14 @@ https://osf.io/nax8y/
 Sampled examples uploaded, more data please acquire online from http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI):
 
 2. Axon:
+```
+https://osf.io/n3vwf/
+```
 
 3. Myelin:
+```
+https://osf.io/mx3kz/
+```
 
 ## Output training .mat from MRH_trainingG.m
 The output of MRH_trainingG.m is the prepared data and label, and saved in .mat form. 
