@@ -57,29 +57,29 @@ demo_trainingG.m call function MRH_trainingG.m
 work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
 ```
-All MRI data upload on line, specifically, please refer /Train_Data
+>All MRI data upload on line, specifically, please refer /Train_Data
 
-Histology location is:
+>Histology location is:
 ```
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
  ```
-All Auto-fluorescence data upload on line, specifically, please refer /Train_Data
+>All Auto-fluorescence data upload on line, specifically, please refer /Train_Data
 
-After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
+>After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
 
-One example .mat file located in folder /Train_Data
+>One example .mat file located in folder /Train_Data
 
 - training the network using code
 
 ```
 demo_training.m call function MRH_training.mlx
 ```
-After running, the network will be saved in .mat format.
+>After running, the network will be saved in .mat format.
 
-Our exampled trained networks located in folder /network.
+>Our exampled trained networks located in folder /network.
 
-One exmple smoothed training curve from MR_auto-fluorescence is the following:
+>One exmple smoothed training curve from MR_auto-fluorescence is the following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Training_CurveFluorescence.jpg)
 
@@ -88,28 +88,28 @@ One exmple smoothed training curve from MR_auto-fluorescence is the following:
 ```
 demo_testingG.m call function MRH_testingG.m
 ```
-After running, the prepared testing data will be saved in .mat that consists: data as input MRI and label as target histology.
+>After running, the prepared testing data will be saved in .mat that consists: data as input MRI and label as target histology.
 
-One example .mat file located in folder /Test_Data
+>One example .mat file located in folder /Test_Data
 
 - generate vitual histology voxel by voxel using code
 ```
 demo_testing.m call function MRH_testing.m
 ```
-After running, the voxel-wised histoloty will be saved in .mat format.
+>After running, the voxel-wised histoloty will be saved in .mat format.
 
-Our exampled voxel-wised histology located in folder /Output.
+>Our exampled voxel-wised histology located in folder /Output.
 
 - Reconstruct slice/volume histology from voxel-wised data using code
 ```
 MRH_recon.m
 ```
-After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop running slices)
+>After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop running slices)
 
-Our exampled virtual histology data are located in folder /Output.
+>Our exampled virtual histology data are located in folder /Output.
 ## Sampled exmples of our output are shown as the following:
 #### (In our work, the testing alreay conducted on many healthy and shiever mouse brain, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, all test subjects in our work are not from training subjects). 
-One example shiever mouse virtual myelin result as following: 
+>One example shiever mouse virtual myelin result as following: 
 #### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
@@ -126,7 +126,7 @@ demo_transfer.m
 # Transfer Learning
 - Transfer Learning peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 
-Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
+>Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
 ```
 newLearnableLayer4 = convolution2dLayer(3,64,'Padding','same', ...
     'Name','new_Conv4', ...
@@ -175,9 +175,9 @@ In our work, the following tools are used:
 Optional:
 1. ANTs 
 ```
-And JHU_P60 atlas could work as an Intermediary to assistent registration. 
+>And JHU_P60 atlas could work as an Intermediary to assistent registration. 
 
-JHU_P60 atlas is generated from averaging 10 mouse subjects and uploaded online: https://osf.io/rnsjv/
+>JHU_P60 atlas is generated from averaging 10 mouse subjects and uploaded online: https://osf.io/rnsjv/
 
 
 ### step1. In training data preparison(MRH_trainingG.m)
@@ -190,7 +190,7 @@ JHU_P60 atlas is generated from averaging 10 mouse subjects and uploaded online:
     dwi5000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi5000.img']);
     t2MTONOFF = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_lddm_t2MTONOFF.img']);
 ```
-please replace the training analyze target image by your own dMRI data.
+>please replace the training analyze target image by your own dMRI data.
 ```
    from (default):
     fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
