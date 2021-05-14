@@ -23,7 +23,7 @@ The subjects Histology target data resource, is uploaded online:
 
 - 3. Myelin:
 
->> https://osf.io/mx3kz/
+>> https://osf.io/u53cg/
 
 - 4. Nissl(in P60 space, to achiever better performance, further accurate registratoion could be conducted by USER):
 
