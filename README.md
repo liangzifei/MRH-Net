@@ -58,6 +58,7 @@ work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
 ```
 All MRI data upload on line, specifically, please refer /Train_Data
+
 Histology location is:
 ```
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
