@@ -68,7 +68,7 @@ work_folder = ['R:\zhangj18lab\zhangj18labspace\',...
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
  ```
->All Auto-fluorescence data upload on line, specifically, please refer /Train_Data
+> Auto-fluorescence data uploaded online, specifically, please refer /Train_Data
 
 >After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
 
