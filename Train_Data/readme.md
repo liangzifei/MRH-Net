@@ -1,26 +1,29 @@
 # Training data resources
 ## Input subjects for MRH_trainingG.m
-The subjects MRI data resource, used in our work for training data generation, is uploaded online(limited by datasize, 3 subjects offered. 6 subjects used in our online published work):
+### Training input
+- 1. The MRI subjects resource, used for MR_autofluorescence, MR_axon and MR_myelin, is uploaded online(limited by datasize, 3 subjects offered. 6 subjects used in our online published work):
 ```
 https://osf.io/8jh7b/
 ```
+- 2. 
+### Training target
 The subjects Histology target data resource, is uploaded online:
-1. Auto-fluorescence:
+- 1. Auto-fluorescence:
 ```
 https://osf.io/nax8y/
 ```
 Sampled examples uploaded, more auto-fluorescence data please acquire online from http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI):
 
-2. Axon:
+- 2. Axon:
 ```
 https://osf.io/n3vwf/
 ```
 
-3. Myelin:
+- 3. Myelin:
 ```
 https://osf.io/mx3kz/
 ```
-4. Nissl(in P60 space):
+- 4. Nissl(in P60 space):
 ```
 https://osf.io/hk2pv/
 ```
