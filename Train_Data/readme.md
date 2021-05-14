@@ -9,7 +9,7 @@ The subjects Histology target data, is uploaded online:
 ```
 https://osf.io/nax8y/
 ```
-Sampled examples uploaded, more data please acquire online from http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI):
+Sampled examples uploaded, more auto-fluorescence data please acquire online from http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI):
 
 2. Axon:
 ```
