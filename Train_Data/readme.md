@@ -5,7 +5,10 @@
 ```
 https://osf.io/8jh7b/
 ```
-- 2. 
+- 2. The MRI subjects resource, used for MR_nissl, is uploaded online(4 subjects offered):
+```
+https://osf.io/asjyh/
+```
 ### Training target
 The subjects Histology target data resource, is uploaded online:
 - 1. Auto-fluorescence:
