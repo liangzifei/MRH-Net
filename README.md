@@ -53,13 +53,13 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
 demo_trainingG.m (call function MRH_trainingG.m)
 (please put the data and files as recommedded in the code)
 ```
->The training preparison requirments mainly consist: MRI data and target histology two parts.
+>The training preparison require two parts: MRI data and target histology.
 
 >Taken Auto-fluorescence as an example:
 >MRI location in code is:
 ```
-work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
-'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
+work_folder = ['R:\zhangj18lab\zhangj18labspace\',...
+    'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\train\'];;
 ```
 >All MRI data upload online, specifically, please refer /Train_Data
 
