@@ -170,7 +170,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 # Prepare your own data(without training)
 
-Please refer to our gradient table and data prepared online to prepare your own data. Our pre-trained network in folder /network could generalise to other data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
+Please refer to our gradient table and data prepared online(refer /Test_Data) to prepare your own data. Our pre-trained network in folder /network could generalise to other data with the same scanner as our Test_Data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
 
 
 # Prepare your own data(with your own training)
