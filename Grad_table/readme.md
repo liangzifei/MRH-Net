@@ -3,7 +3,7 @@
 ```
 grad_auto.txt
 ```
-## 2. Gradient table used for training MR_nissl network.
+## 2. Gradient table used for training MR_nissl network(3 b_value, each scan using the same gradient).
 ```
 grad_nissl.txt
 ```
