@@ -114,7 +114,7 @@ MRH_recon.m
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
 
-#### More virtual myelin exmple: top health and bottom 3 different shiever subjects
+#### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
 ## Fast demo test running please run:
