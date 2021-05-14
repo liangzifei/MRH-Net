@@ -81,7 +81,9 @@ demo_training.m (call function MRH_training.mlx)
 ```
 >After running, the network will be saved in .mat format.
 
->Our exampled trained networks located in folder /network.
+>Our trained networks located in folder /network.
+>One 5 Resblock MRH_net is the following:
+>![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Example_Net.jpg)
 
 >One exmple smoothed training curve from MR_auto-fluorescence is the following:
 
