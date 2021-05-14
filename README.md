@@ -104,7 +104,7 @@ Our exampled voxel-wised histology located in folder /Output.
 ```
 MRH_recon.m
 ```
-After running, the virtual histology will show up dierctly.(The code offered is based on slice generation, 3D volume need loop running slice code by USER)
+After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop running slices)
 
 Our exampled virtual histology data are located in folder /Output.
 ## Sampled exmples of our output are shown as the following:
