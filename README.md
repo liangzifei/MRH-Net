@@ -53,12 +53,16 @@ The input of Training generate mainly consists: MRI data and target histology tw
 
 Taken Auto-fluorescence as an example:
 MRI location is:
+```
 work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
+```
 All MRI data upload on line, specifically, please refer /Train_Data
 Histology location is:
+```
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
+ ```
 All Auto-fluorescence data upload on line, specifically, please refer /Train_Data
 
 After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
