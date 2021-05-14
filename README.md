@@ -191,16 +191,16 @@ Optional:
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
 ```
   from (default):
-   %dwi2000 is the diffusion data scanned from b=2000
-    dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
-   %dwi5000 is diffusion b=5000 data
-    dwi5000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi5000.img']);
-    t2MTONOFF = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_lddm_t2MTONOFF.img']);
+     %dwi2000 is the diffusion data scanned from b=2000
+      dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
+    %dwi5000 is diffusion b=5000 data
+      dwi5000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi5000.img']);
+      t2MTONOFF = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_lddm_t2MTONOFF.img']);
 ```
->please replace the training analyze target image by your own dMRI data.
+>please replace the training analyze target image by your own matched histology data.
 ```
    from (default):
-    fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
+      fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
 ```        
 training input and target should be corregistered.
@@ -233,14 +233,14 @@ from(default):
 - In virtual histology generation(MRH_testing.m), please replace the file in the code. load_data is the testing data, while load_net is the pre-trained network.
 ```
 from(default):
-load_data = 'testdataPatch_mouse.mat';
-load_net = 'net_30layerV3Res_HRJG_allMRIs_onesample2fluo5000d.mat';
+    load_data = 'testdataPatch_mouse.mat';
+    load_net = 'net_30layerV3Res_HRJG_allMRIs_onesample2fluo5000d.mat';
 ```
 ## step5. Vitual histology reconstruction from pixels
 - In virtual histology contrast reconstruction(MRH_recon.m), please replace the slice parameters by USERS.
 ```
 from(default):
-hei = 200; wid = 128;
+    hei = 200; wid = 128;
 ```
 # License
 ```
