@@ -123,7 +123,7 @@ MRH_recon.m
 #### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
-## Fast demo test running please run:
+## Fast demo test(auto-fluorescence) running please run:
 >>(Put data files as refered in the code)
 ```
 demo_testing.m 
@@ -159,7 +159,7 @@ net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
 default pre_network is trained from autofluorescence in our paper.
 pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
-## Fast demo test running please run:
+## Fast demo test(myelin) running please run:
 
 ```
 demo_transfer.m
