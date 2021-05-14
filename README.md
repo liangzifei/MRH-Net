@@ -58,7 +58,7 @@ demo_trainingG.m call function MRH_trainingG.m
 work_folder = ['R:\zhangj18lab\zhangj18labspace\'...
 'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
 ```
->All MRI data upload on line, specifically, please refer /Train_Data
+>All MRI data upload online, specifically, please refer /Train_Data
 
 >Histology location in code is:
 ```
