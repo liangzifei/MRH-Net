@@ -20,3 +20,5 @@
 Compare to one previous example without transfer learning(3 Residual blocks used here):
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/No_transfer_3Resblock.jpg)
+
+# Runing please refer Usage:Step1-5
