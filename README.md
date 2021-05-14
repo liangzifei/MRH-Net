@@ -8,6 +8,8 @@ https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 - Matlab version > 2019b 
 - Deep learning toolbox.
 https://www.mathworks.com/products/deep-learning.html
+- nifti toolbox
+https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-analyze-image
 - CUDA
 - Optional
 
