@@ -163,11 +163,14 @@ demo_transfer.m
 
 #### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
+
+### `##########################################################################################################
+
 # Prepare your own data(without training)
 
 Please refer to our gradient table and data prepared online to prepare your own data. Our pre-trained network in folder /network could generalise to other data. USERS using the identical MRI contrasts as our listed example data online(under /Train_data and /Test_data MRI subject resources).
 
-#### `##########################################################################################################
+
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
 Before training the MR and histology data needs to be cooregistered. Any tool achieving accurate voxel-wise registration is a good candidate. 
