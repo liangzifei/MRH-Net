@@ -24,7 +24,7 @@
 % Inferring Maps of Cellular Structures from MRI Signals using Deep Learning 
 % https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 
-function [data,label] = MRH_trainingG(folder_dwi, halfsize_input, stride0)
+function [data,label] = MRH_trainingG(folder_dwi, halfsize_input, stride0, fluo_img)
 % folder_dwi =['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'];
 %% start loop %%%%%%%%%%%%%%%%
 % halfsize_input = 1;
@@ -48,8 +48,8 @@ for sample_img = 1:length(file_list)
     % as example. Please replace by self defined histology, for any other
     % data. voxel-wise data preparison dose not change pixel-wise
     % information by warping from subject to P60 template space.
-    fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
-        '\AllenPathology2TanzilP60.img']);
+%     fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
+%         '\AllenPathology2TanzilP60.img']);
     %'\mean10_data',num2str(sample_img),'.img']);
     
     dwi_data = cat(4,dwi2000.img,dwi5000.img,t2MTONOFF.img);
@@ -84,8 +84,9 @@ for sample_img = 1:length(file_list)
         end
         for x = 1+halfsize_input : stride : hei-halfsize_input
             for y = 1+halfsize_input :stride : wid-halfsize_input
-                % include all MRI contrasts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-                subim_input = dwi_data(x-halfsize_input : x+halfsize_input, y-halfsize_input : y+halfsize_input,slice,[end-2:end]);
+                % include all MRI contrasts [1:end], USER can select input
+                % channels want to use here
+                subim_input = dwi_data(x-halfsize_input : x+halfsize_input, y-halfsize_input : y+halfsize_input,slice,[1:end]);
                 %% only diffusion MRI %%%%%%%%%%%%%%%%%%%%%%%%%
                 subim_label = fluo_data(x-halfsize_input : x+halfsize_input, y-halfsize_input : y+halfsize_input,slice);
                 flag = sum(sum(sum(subim_label))); sum_fa=sum(sum(sum(sum(logical(subim_label)))));

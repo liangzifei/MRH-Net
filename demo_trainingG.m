@@ -14,4 +14,8 @@ work_folder = ['R:\zhangj18lab\zhangj18labspace\',...
     'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\train\'];
 halfpatch_size = 1;
 stride0 = 20;
-[data,label] = MRH_trainingG(work_folder,halfpatch_size,stride0);
+% location of the target histology .img. Please replace the location by
+% USER
+fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
+    '\AllenPathology2TanzilP60.img']);
+[data,label] = MRH_trainingG(work_folder,halfpatch_size,stride0, fluo_img);
