@@ -175,7 +175,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Sas4_MRH_nissl.jpg)
 
-> Results of MRH_nissl from diferent sequence
+> Results of MRH_nissl using diferent sequence
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_nissl_diffSequence.jpg)
 
