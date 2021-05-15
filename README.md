@@ -199,10 +199,14 @@ In our work, the following tools are used:
 Optional:
 1. ANTs 
 ```
+
 >And JHU_P60 atlas could work as an Intermediary to assistent registration. 
 
 >JHU_P60 atlas is generated from averaging 10 mouse subjects and uploaded online: https://osf.io/rnsjv/
 
+> Our example corregistered MRI_histology is the following:
+
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/CorregisteredMRI_histology.jpg)
 
 ### step1. In training data preparison(MRH_trainingG.m)
 - In training data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data.
