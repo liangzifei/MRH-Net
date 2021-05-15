@@ -161,9 +161,9 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 #### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, no test subject, in our work, is from training subjects). 
 >Some example virtual histology results as following: 
-#### Training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
+#### Training on health, testing on both health(top) and shiever(bottom) strain. The right is real histology obtained from real staining.
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Myelin.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Demyelin.jpg)
 
 #### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
