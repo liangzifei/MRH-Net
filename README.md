@@ -158,6 +158,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 /Transfer_Learning/demo_fastTest_Trans.m
 ```
 ## Exmples results of our vitural histology are shown as the following:
+
 #### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, no test subject, in our work, is from training subjects). 
 >One example shiever mouse virtual myelin result as following: 
 #### training on health, testing on both health(top LEFT) and shiever(bottom LEFT) strain. The right is real histology obtained from staining.
@@ -166,6 +167,10 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 #### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
+
+#### training on health mouse subjects, testing on Sas4 mouse strain. Results from MRH_nissl.
+
+
 
 ### `####################################################
 # Prepare your own data(without training)
