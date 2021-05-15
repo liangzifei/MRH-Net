@@ -162,7 +162,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 ## Exmple results from our work are shown as the following:
 
-#### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, no test subject, in our work, is from training subjects). 
+#### (In our work, the testing has been conducted on many healthy and sheiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, no test subject, in our work, is from training subjects). 
 >Some example virtual histology results as following: 
 #### Training on health, testing on both health(top) and shiever(bottom) strain. The right is real histology obtained from real staining.
 
