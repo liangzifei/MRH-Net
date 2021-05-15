@@ -1,4 +1,4 @@
-% Training data preparison by calling MRH_trainingG.
+% Training data preparison by calling MRH_trainingG_Trans.
 %After running the demo, the data and label file
 % in .mat form like traindataJG_allMRIs_fluo.mat data label -v7.3; should be saved in
 % your current folder.
