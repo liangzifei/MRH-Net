@@ -170,7 +170,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 #### training on health mouse subjects, testing on Sas4 mouse strain. Results from MRH_nissl.
 
-
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Sas4_MRH_nissl.jpg)
 
 ### `####################################################
 # Prepare your own data(without training)
