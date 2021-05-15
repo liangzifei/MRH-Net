@@ -4,6 +4,7 @@ Training a neuro-network from MRI to histology in mouse brain voxel-by-voxel. Th
 Using code/data reasources please refer our work: 
 
 Inferring Maps of Cellular Structures from MRI Signals using Deep Learning
+
 https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 # Requirements
 - Windows 10
