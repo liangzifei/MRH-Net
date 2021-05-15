@@ -157,7 +157,7 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 /Transfer_Learning/demo_fastTest_Trans.m
 ```
-## Exmples results of our vitural histology are shown as the following:
+## Exmple results from our work are shown as the following:
 
 #### (In our work, the testing conducted on many healthy and shiever mouse brains, while training on healthy mouse brains only. This verified the MRH_net could generalise to other than training data itself. Additionally, no test subject, in our work, is from training subjects). 
 >Some example virtual histology results as following: 
