@@ -58,6 +58,6 @@ One example .mat is saved online(about 40,000 patches are generated from matched
 > 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_132.jpg)
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized56times_Allen132.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedAllen133.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedAllen141.jpg)
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_133.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_141.jpg)
