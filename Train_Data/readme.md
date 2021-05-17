@@ -44,7 +44,8 @@ One example .mat is saved online(about 40,000 patches are generated from matched
 
 
 
-# The original histology data that used to generate the above data resources is dowloaded from allen database
+# The original histology data
+> (used to generate the above data resources is dowloaded from allen database)
 >> https://connectivity.brain-map.org/static/referencedata
 
 > Example allen hisology images form the original is the following:
