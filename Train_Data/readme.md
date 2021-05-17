@@ -33,6 +33,7 @@ The subjects Histology target data resource, is uploaded online:
 >> https://connectivity.brain-map.org/static/referencedata
 
 Example allen hisology images form the original is the following:
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_130.jpg)
 
 
 ## Output training .mat from MRH_trainingG.m
