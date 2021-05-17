@@ -191,8 +191,8 @@ Please refer to our gradient table(under /Grad_table) and data prepared online(r
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
-Before training the MR and histology data needs to be cooregistered. Any tool achieving accurate voxel-wise registration is a good candidate. 
-In our work, the following tools are used:
+Before training the MR and histology data needs to be cooregistered. The tools used to accomplish MRI_histology corregistration are the following list: 
+
 ```
 1. MRIStudio https://cmrm.med.jhmi.edu/
 2. Diffeomap https://www.mristudio.org/installation.html
