@@ -191,7 +191,7 @@ Please refer to our gradient table(under /Grad_table) and data prepared online(r
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
-Before training the MR and histology data needs to be cooregistered. The tools used to accomplish MRI_histology corregistration are the following list: 
+Before training the MR and histology data needs to be cooregistered. The tools used to accomplish MRI_histology corregistration is the following list: 
 
 ```
 1. MRIStudio https://cmrm.med.jhmi.edu/
