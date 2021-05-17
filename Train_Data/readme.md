@@ -1,4 +1,6 @@
-# Training data resources
+# Training resources
+
+
 ## Input subjects for MRH_trainingG.m
 ### Training input
 - 1. The MRI subjects resource, used for MR_autofluorescence, MR_axon and MR_myelin, is uploaded online(limited by datasize, 4 subjects offered. 6 subjects used in our online published work):
@@ -45,6 +47,8 @@ One example .mat is saved online(about 40,000 patches are generated from matched
 
 
 # Supplementary 
+
+
 > (The original histology data used to generate the above data resources is dowloaded from allen database)
 >> https://connectivity.brain-map.org/static/referencedata
 
