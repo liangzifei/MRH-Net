@@ -25,7 +25,7 @@ The subjects Histology target data resource, is uploaded online:
 
 >> https://osf.io/u53cg/
 
-- 4. Nissl(in P60 space, to achiever better performance, further accurate registratoion can be conducted by USER):
+- 4. Nissl(in P60 space, to achiever better performance, further accurate registratoion is helpful):
 
 >> https://osf.io/hk2pv/
 
