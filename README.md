@@ -64,14 +64,14 @@ demo_trainingG.m (call function MRH_trainingG.m)
 work_folder = ['R:\zhangj18lab\zhangj18labspace\',...
     'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\train\'];;
 ```
->All MRI data upload online, specifically, please refer /Train_Data
+>All MRI data upload online, specifically, please refer to /Train_Data
 
 >Histology(can replace by USER defined histology) location in code is:
 ```
  fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
         '\AllenPathology2TanzilP60.img']);
  ```
-> Auto-fluorescence data uploaded online, specifically, please refer /Train_Data
+> Auto-fluorescence data uploaded online, specifically, please refer to /Train_Data
 
 >After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
 
@@ -85,7 +85,7 @@ demo_training.m (call function MRH_training.mlx)
 >After running, the network will be saved in .mat format.
 
 >Our trained networks located in folder /network.
->One example of voxel-wise MRH_net using 10 ResBlocks is the following(USER can redefine ResBlock length by depth in code):
+>One example of voxel-wise MRH_net using 10 ResBlocks is the following(USER can revise ResBlock length by depth in code):
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Example_Net.jpg)
 
@@ -127,7 +127,7 @@ MRH_recon.m
 # Transfer Learning
 - Transfer Learning is prepared under the situation that no much histology are avaliable. For example, we have many auto-fluorescence, however, myelin/axon are in shortage. The idea here is Transfer learning from pre-trained MRH-autofluorescence network. It is peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
 
->Refering online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
+>Refering to online resource: https://www.mathworks.com/help/deeplearning/ug/transfer-learning-using-pretrained-network.html
 ```
 newLearnableLayer4 = convolution2dLayer(3,64,'Padding','same', ...
     'Name','new_Conv4', ...
@@ -146,14 +146,14 @@ lgraph = replaceLayer(lgraph,'FinalRegressionLayer',newfinallayer)
 initLearningRate = 1e-4;
 learningRateFactor = 0.1;
 ```
-- Detail transfer learning execution can also refer Usage: step1-5. Except that the network training needs one pre-trained network as generic network:
+- Detail transfer learning execution can also refer to Usage: step1-5. Except that the network training needs one pre-trained network as generic network:
 ```
 net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
 
 default pre_network is trained from autofluorescence in our paper.
 pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
-- Our prepared training .mat for transfer learning is uploaded online, please refer under /Train_data.
+- Our prepared training .mat for transfer learning is uploaded online, please refer to /Train_data.
 
 ## Fast demo test(myelin) please run:
 
@@ -230,7 +230,7 @@ Optional:
 training input and target should be corregistered.
 ## step2. In network training(MRH_training.mlx)
 
-- In network training(MRH_training.mlx), please change the dMRI input channel according to your own data. Any MRI contrast could be incorporated and not limited to dRMI. Magnetic transfer image was tested in our work. load_mat is the location of your training .mat file. Depth is the length of Residual blocks used in the trained network.
+- In network training(MRH_training.mlx), please revise the dMRI input channel according to your own data. Any MRI contrast could be incorporated while not limited to dRMI. Magnetic transfer image was tested in our work. load_mat is the location of your training .mat file. Depth is the length of Residual blocks used in the trained network.
 ```
    from (default):
      load_mat =['F:\Code\SRCNN\Fluorescence\traindata.mat'];
@@ -242,7 +242,7 @@ training input and target should be corregistered.
      depth = 30;
 ```
 ## step3. In testing data preparison(MRH_testingG.m)
-- In testing data preparison(MRH_trainingG.m), please replace the training analyze images by your own dMRI data. and axon_img is the reference data for comparison.
+- In testing data preparison(MRH_trainingG.m), please revise the training analyze images by your own dMRI data. and axon_img is the reference data for comparison.
 ```
 from(default):
     dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
@@ -254,7 +254,7 @@ from(default):
         'JesseGray\JesseGray20191223\Porcessed\Axon_to_C',num2str(sample_img),'.img']);
 ```
 ## step4. Vitual histology pixels generation from testing data using trained MRH_network(MRH_testing.m)
-- In virtual histology generation(MRH_testing.m), please replace the file in the code. load_data is the testing data, while load_net is the pre-trained network.
+- In virtual histology generation(MRH_testing.m), please revise the file in the code. load_data is the testing data, while load_net is the pre-trained network.
 ```
 from(default):
     load_data = 'testdataPatch_mouse.mat';
