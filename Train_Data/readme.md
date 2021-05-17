@@ -29,15 +29,6 @@ The subjects Histology target data resource, is uploaded online:
 
 >> https://osf.io/hk2pv/
 
-> The original histology data that used to generate the above data resources is dowloaded from allen database
->> https://connectivity.brain-map.org/static/referencedata
-
-Example allen hisology images form the original is the following:
-
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_130.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142290_133.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142355_131.jpg)
-
 
 ## Output training .mat from MRH_trainingG.m
 The output of MRH_trainingG.m is the prepared data and label, and saved in .mat form. 
@@ -50,3 +41,18 @@ One example .mat is saved online(about 40,000 patches are generated from matched
 (about 40,000 patches are generated from matched MRI and myelin):
 
 >> https://osf.io/rw42b/
+
+
+### The original histology data that used to generate the above data resources is dowloaded from allen database
+>> https://connectivity.brain-map.org/static/referencedata
+
+> Example allen hisology images form the original is the following:
+
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_130.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142290_133.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142355_131.jpg)
+
+> Corregistered histology in High resolution JHU P60 space :
+> 
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_132.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized56times_Allen132.jpg)
