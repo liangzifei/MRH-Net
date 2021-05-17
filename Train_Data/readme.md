@@ -35,8 +35,8 @@ The subjects Histology target data resource, is uploaded online:
 Example allen hisology images form the original is the following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_130.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_133.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_131.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142290_133.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142355_131.jpg)
 
 
 ## Output training .mat from MRH_trainingG.m
