@@ -29,11 +29,14 @@ The subjects Histology target data resource, is uploaded online:
 
 >> https://osf.io/hk2pv/
 
-> The original histology data is dowloaded from allen database
+> The original histology data that used to generate the above data resources is dowloaded from allen database
 >> https://connectivity.brain-map.org/static/referencedata
 
 Example allen hisology images form the original is the following:
+
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_130.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_131.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_132.jpg)
 
 
 ## Output training .mat from MRH_trainingG.m
