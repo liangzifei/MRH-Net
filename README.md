@@ -50,7 +50,7 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
 - step4. generate virtual histology from testing data voxel-by-voxel using trained neruo-network from step2--- demo_testing (call MRH_testing.mlx).
 - step5. reconstruct the whole brain/one slice virual histology from voxel data---MRH_recon.m.
 # Training 
-> (We provide many training resources under /Train_data)
+> (Our prepared training resources under /Train_data)
 - prepare training data, use code 
 ```
 demo_trainingG.m (call function MRH_trainingG.m)
