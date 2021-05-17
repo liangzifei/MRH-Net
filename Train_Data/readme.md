@@ -54,6 +54,7 @@ One example .mat is saved online(about 40,000 patches are generated from matched
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142290_133.jpg)
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142355_131.jpg)
 
+'########################################################################################
 ### Some of corregistered histology in High resolution JHU P60 space is the following:
 > 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_132.jpg)
