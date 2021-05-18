@@ -5,7 +5,7 @@ The unique of our work is that all training or testing based on voxel-wise rathe
 Different from imaging principle of camera, our imaging method is more like a real scanner, reconstructing histology images voxel-by-voxel.
 
 
-#### Using code/data reasources please refer our work: 
+### Using code/data reasources please refer our work: 
 
 Inferring Maps of Cellular Structures from MRI Signals using Deep Learning
 
