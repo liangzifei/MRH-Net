@@ -2,7 +2,7 @@
 Training a neuro-network from MRI to histology in mouse brain voxel-by-voxel. 
 The unique of our work is that all training or testing based on voxel-wise rather than large patch or slice method that using spatial informatoin traditionally, suggesting all information generated using our MRH_net principlly attribute to current voxel-wise MRI protocols. 
 
-Different from imaging principle of camera or microscopy, our imaging method is more like a real scanner, reconstructing histology images voxel-by-voxel.
+Different from imaging principle of camera or microscopy, our imaging method is more like a real MRI scanner, reconstructing histology images voxel-by-voxel.
 
 
 ### Using code/data reasources please refer our work: 
