@@ -30,6 +30,8 @@ Below are several scenarios that MRH-Net and associated resources may be used.
 3) Register your own histological data to the MRI dataset provided here and use the source codes to train your own network. Note: co-register histological and MRI data is time consuming. 
 4) Register data acquired using new MRI methods to the MRI dataset provided here and test its sensitivity and specificity using the histological data as the ground truth. 
 
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Github_Folder_tree.jpg)
+
 # What are the limitations of MRH-Net?
 
 1) The current MRH-Nets were trained limited MRI and histological data from normal adult C57BL6 mouse brains (2 month old). Its performance for brains with pathology has not been evaluated. Additional training data (from different strains, ages, and pathology) will likely further improve the performance of MRH-Nets. 
