@@ -22,7 +22,7 @@ While the first assumption is true for most MRI data, it is often difficult to k
 
 ## MRH-Net workflow
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Github_Folder_tree.gif)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_flow.png)
 
 # How to use MRH-Net?
 
