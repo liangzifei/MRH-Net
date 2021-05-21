@@ -30,6 +30,7 @@ Below are several scenarios that MRH-Net and associated resources may be used.
 3) Register your own histological data to the MRI dataset provided here and use the source codes to train your own network. Note: co-register histological and MRI data is time consuming. 
 4) Register data acquired using new MRI methods to the MRI dataset provided here and test its sensitivity and specificity using the histological data as the ground truth. 
 
+## File layout of MRH-Net
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Github_tree.gif)
 
 # What are the limitations of MRH-Net?
