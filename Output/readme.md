@@ -4,6 +4,7 @@
 ```
 MRH_autofluo_output.zip is the reconsturcted 3D virtual auto fluorescence subject from MRH_autofluorescence.
 ```
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/auto.jpg)
 - Example output from our trained MRH_nissl network:
 ```
 MRH_nissl_output.zip is the reconstructed 3d virtual nissl subject from MRH_nissl.
