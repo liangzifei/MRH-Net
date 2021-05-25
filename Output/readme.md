@@ -11,6 +11,10 @@ MRH_nissl_output.zip is the reconstructed 3d virtual nissl subject from MRH_niss
 ```
 - Example output from our trained MRH_axon network:
 ```
+Results of MRH_nissl using diferent sequence
+
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_nissl_diffSequence.jpg)
+
 MRH_axon_output.zip is the reconstructed 3d virtual nissl subject from MRH_axon.
 ```
 - Example output from our trained MRH_myelin network:
