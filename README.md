@@ -215,9 +215,6 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Sas4_MRH_nissl.jpg)
 
-> Results of MRH_nissl using diferent sequence
-
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_nissl_diffSequence.jpg)
 
 #### Combine axon/myelin/nissl(rgb) in colored virual histology.
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Axon_myelin_nissl3Channel120.jpg)
