@@ -208,8 +208,6 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Demyelin.jpg)
 
-#### More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
 
 #### Training on health mouse subjects, testing on Sas4 mouse strain. Results from MRH_nissl.
 
