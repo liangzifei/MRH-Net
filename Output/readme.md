@@ -9,7 +9,7 @@ MRH_autofluo_output.zip is the reconsturcted 3D virtual auto fluorescence subjec
 ```
 MRH_nissl_output.zip is the reconstructed 3d virtual nissl subject from MRH_nissl.
 ```
-Results of MRH_nissl using diferent sequence
+> Results of MRH_nissl using diferent sequence
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_nissl_diffSequence.jpg)
 - Example output from our trained MRH_axon network:
