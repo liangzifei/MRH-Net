@@ -44,8 +44,10 @@ For transfer learning of MBP data, an example .mat file containing about 40,000 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized56times_Allen132.jpg)
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedFA132.jpg)
 
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_141.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedAllen141.jpg)
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedFA141.jpg)
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedAllen141.jpg)
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_141.jpg)
+
+
