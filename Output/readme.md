@@ -1,33 +1,9 @@
-# Examples of vitual histology from MRH_histology in our paper
+# Examples of vitual histology from MRH in our manuscript (https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1.article-metrics)
 
-- Example output from our trained MRH_autofluo network:
-```
-MRH_autofluo_output.zip is the reconsturcted 3D virtual auto fluorescence subject from MRH_autofluorescence.
-```
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/auto.jpg)
-- Example output from our trained MRH_nissl network:
-```
-MRH_nissl_output.zip is the reconstructed 3d virtual nissl subject from MRH_nissl.
-```
-> Results of MRH_nissl using diferent sequence
+- MRH_autofluo_output.zip contains examples of outputs from the MRH-AF network.  
+- MRH_nissl_output.zip contains examples of outputs from the MRH-nissl network.
+- MRH_axon_output.zip contains examples of outputs from the MRH-NF network.
+- MRH_myelin_outputHealth.zip and MRH_myelin_outputShiverer.zip contain examples of output from the MRH-MBP networks based on inputs of control and hypomyelinated shiverer mouse brains, respectively. 
+- YPred_audo.mat contains examples of voxel-wise pseudo autofluorescence from MRH-AF(by MRH_testing.mlx) as described in our manuscript.
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_nissl_diffSequence.jpg)
-- Example output from our trained MRH_axon network:
-```
-
-MRH_axon_output.zip is the reconstructed 3d virtual nissl subject from MRH_axon.
-```
-- Example output from our trained MRH_myelin network:
-```
-MRH_myelin_outputHealth.zip is the reconstructed 3d virtual healthy subject from MRH_myelin.
-```
-- Example output from our trained MRH_myelin network:
-```
-MRH_myelin_outputShiever.zip is the reconstructed 3d virtual sheiver subject from MRH_myelin.
-```
-> More virtual myelin exmples: top one healthy and bottom 3 different shiever subjects
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Shiever_3Subj.jpg)
-# Examples of voxel-wise vitual histology from MRH_autofluo(MRH_testing.mlx output) in our paper
-```
-/Output/YPred_audo.mat
-```
+Further details on the output data can be found in our manuscript. 
