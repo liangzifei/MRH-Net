@@ -1,49 +1,30 @@
-# Training resources
+# Training Data 
 
+Here you will find the training MRI and histology data used in our manuscript (doi: https://doi.org/10.1101/2020.05.01.072561)
 
 ## Input subjects for MRH_trainingG.m
 ### Training input
-- 1. The MRI subjects resource, used for MR_autofluorescence, MR_axon and MR_myelin, is uploaded online(limited by datasize, 4 subjects offered. 6 subjects used in our online published work):
+- 1. The multi-contrast 3D MRI data used for MRH-AF/NF/MBP (4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/8jh7b/. We only uploaded data from 4 mouse brains due to file size limit. Please contact us if you need additional data. 
 
->> https://osf.io/8jh7b/
-- 2. The MRI subjects resource, used for MR_nissl, is uploaded online(4 subjects offered):
-
->> https://osf.io/asjyh/
+- 2. The multi-contrast 3D MRI data used for MRH-Nissl (from 4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/asjyh/.
 
 ### Training target
-The subjects Histology target data resource, is uploaded online:
-- 1. Auto-fluorescence:
+The following target histology data resource were obtained from the Allen mouse brain reference and connectivity atlases. 
 
->> https://osf.io/nax8y/
+- 1. Auto-fluorescence (AF) data (10 from 100 mouse brains used in our manuscript) can be downloaded from https://osf.io/nax8y/. Additional AF data can be downloaded from the Allen website (http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI).
 
-> Only part of examples uploaded, more than 2,000 auto-fluorescence data offered by allen group. Please acquire online from: http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI
+- 2. Neurofilament (NF) data can be downloaded from https://osf.io/n3vwf/
 
-- 2. Axon:
+- 3. Myelin basic protein (MBP) data can be downloaded from https://osf.io/u53cg/
 
->> https://osf.io/n3vwf/
-
-
-- 3. Myelin:
-
->> https://osf.io/u53cg/
-
-- 4. Nissl(in P60 space, to achiever better performance, further accurate registratoion is helpful):
-
->> https://osf.io/hk2pv/
+- 4. Nissl data can be downloaded from https://osf.io/hk2pv/
 
 
-## Output training .mat from MRH_trainingG.m
-The output of MRH_trainingG.m is the prepared data and label, and saved in .mat form. 
-One example .mat is saved online(about 40,000 patches are generated from matched MRI and auto-fluorescence):
-
->> https://osf.io/fk58t/
+## Output training.mat from MRH_trainingG.m
+The output of MRH_trainingG.m is the prepared data and label, and saved in .mat format (Matlab). An example .mat file (containing 40,000 patches generated from matched MRI and auto-fluorescence data) can be downloaded from https://osf.io/fk58t/
 
 ## Output training .mat from MRH_trainingG.m for Transfer Learning
-
-(about 40,000 patches are generated from matched MRI and myelin):
-
->> https://osf.io/rw42b/
-
+For transfer learning of MBP data, an example .mat file containing about 40,000 patches generated from matched MRI and MBP histology can be downloaded from https://osf.io/rw42b/
 
 
 # Supplementary 
