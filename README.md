@@ -24,6 +24,8 @@ While the first assumption is true for most MRI data, it is often difficult to k
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/MRH_flow.png)
 
+Fig. 1: The workflow of MRH-Net. The basic network was trained using co-registered 3D MRI and autofluorescence (AF) data of adult C57BL mouse brains. The AF dataset contains data from 100 subjects from the Allen Brain Connectivity Project (https://connectivity.brain-map.org/). The MRI data contains multi-contrast MRI data (T2, magnetization transfer, and diffusion-weighted) from 6 post-mortem mouse brains. The network, MRH-AF, trained using the data, can then take new MRI data acquired using the same protocol to generate 3D pseudo-AF data. For neurofilament (NF) and myelin basic protein (MBP) data, the Allen reference dataset only contains single subject data (http://connectivity.brain-map.org/static/referencedata). We registered these histological images to MRI data and used transfer learning methods to generate new networks based on the existing MRH-AF network. The resulting MRH-NF and MRH-MBP networks are intended to translate multi-contrast MRI data to pseudo-NF and MBP images.   
+
 # How to use MRH-Net?
 
 Below are several scenarios that MRH-Net and associated resources may be used.
@@ -35,6 +37,8 @@ Below are several scenarios that MRH-Net and associated resources may be used.
 
 ##  MRH-Net files layout
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Github_Folder_tree.gif)
+
+Fig. 2: An overview of file organization. 
 
 # What are the limitations of MRH-Net?
 
