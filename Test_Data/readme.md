@@ -10,4 +10,4 @@ Testing subject MRI (shiever subject, using gradient table grad_auto.txt) can be
 
 ## Output example .mat from MRH_testingG.m
 
-testdataPatch_mouse.mat contains example of testing patches (by MRH_testingG.m)
+testdataPatch_mouse.mat contains example of testing patches for demo_testing.m (by MRH_testingG.m)
