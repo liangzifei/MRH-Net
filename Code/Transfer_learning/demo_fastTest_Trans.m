@@ -8,11 +8,11 @@
 % https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 
 clc;clear; close all;
-% Please replace the location of USERS folder.  testdata location refer
-% under /Test_Data. pretrained network refer under /network.
-load([ 'F:\Code\SRCNN\Submit_elife\Pre_trained_Network\testdataPatch_mouse.mat']);
-load(['F:\Code\SRCNN\Submit_elife\Pre_trained_Network\',...
-    'net_30layerV3Res_HRJG_allmri_myelin_TransferLearn.mat'], 'net');
+% Please replace by generated test patches in .mat format from demo_testingG.m
+% One example can be found under \Test_Data
+load([ '.\Test_Data\testdataPatch_mouse.mat']);
+% Pretrained network please refer under \network.
+load(['.\network\net_30layerV3Res_HRJG_allmri_myelin_TransferLearn.mat'], 'net');
 XTest = double(data./max(data(:)));
 YPred = predict(net, XTest);
 %end network prediction
