@@ -131,7 +131,7 @@ demo_training.m (call function MRH_training.mlx)
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Example_Net.jpg)
 
->One exmple smoothed training curve from MR_auto-fluorescence is the following:
+>One exmple smoothed training curve from MR_AF is the following:
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Training_CurveFluorescence.jpg)
 
