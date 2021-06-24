@@ -292,7 +292,7 @@ from(default):
         'JesseGray\JesseGray20191223\Porcessed\Axon_to_C',num2str(sample_img),'.img']);
 ```
 ## step4. Vitual histology pixels generation from testing data using trained MRH_network(MRH_testing.m)
-- In virtual histology generation(MRH_testing.m), please revise the file in the code. load_data is the testing data, while load_net is the pre-trained network.
+- In virtual histology generation(demo_testing.m), please revise the file in the code. load_data is the testing data, while load_net is the pre-trained network.
 ```
 from(default):
      load_data = '.\Test_Data\testdataPatch_mouse.mat';
