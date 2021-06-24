@@ -4,7 +4,7 @@ Here you will find the training MRI and histology data used in our manuscript (d
 
 The file list under Train_Data is following:
 
-![]https://github.com/liangzifei/MRH_net_submit/blob/main/image/TrainFoder_tree.jpg
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/TrainFoder_tree.jpg)
 
 ## Input subjects for MRH_trainingG.m
 ### Training input
