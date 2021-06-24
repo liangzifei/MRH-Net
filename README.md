@@ -295,8 +295,8 @@ from(default):
 - In virtual histology generation(MRH_testing.m), please revise the file in the code. load_data is the testing data, while load_net is the pre-trained network.
 ```
 from(default):
-    load_data = 'testdataPatch_mouse.mat';
-    load_net = 'net_30layerV3Res_HRJG_allMRIs_onesample2fluo5000d.mat';
+     load_data = '.\Test_Data\testdataPatch_mouse.mat';
+     load_net = '.\network\net_30layerV3Res_HRJG_allMRIs_Fluo.mat';
 ```
 ## step5. Vitual histology reconstruction from pixels
 - In virtual histology contrast reconstruction (MRH_recon.m), please redefine the slice parameters by USERS.
