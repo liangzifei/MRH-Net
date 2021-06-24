@@ -26,7 +26,9 @@ The following target histology data resource were obtained from the Allen mouse 
 
 
 ## Output training.mat from MRH_trainingG.m
-The output of MRH_trainingG.m is the prepared data and label, and saved in .mat format (Matlab). An example .mat file (containing 40,000 patches generated from matched MRI and auto-fluorescence data) can be downloaded from https://osf.io/fk58t/
+The output of MRH_trainingG.m is the prepared data and label, and saved in .mat format (Matlab). 
+
+An example .mat file (containing 40,000 patches generated from matched MRI and auto-fluorescence data) can be downloaded from https://osf.io/fk58t/
 
 ## Output training .mat from MRH_trainingG.m for Transfer Learning
 For transfer learning of MBP data, an example .mat file containing about 40,000 patches generated from matched MRI and MBP histology can be downloaded from https://osf.io/rw42b/
