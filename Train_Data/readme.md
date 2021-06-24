@@ -2,6 +2,8 @@
 
 Here you will find the training MRI and histology data used in our manuscript (doi: https://doi.org/10.1101/2020.05.01.072561)
 
+https://osf.io/qksrh/
+
 ## Input subjects for MRH_trainingG.m
 ### Training input
 - 1. The multi-contrast 3D MRI data used for MRH-AF/NF/MBP (4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/8jh7b/. We only uploaded data from 4 mouse brains due to file size limit. Please contact us if you need additional data. 
