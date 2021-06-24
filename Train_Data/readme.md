@@ -11,18 +11,18 @@ The file list under Train_Data is following:
 ### Training input
 - 1. The multi-contrast 3D MRI data used for MRH-AF/NF/MBP (4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/jnvg5/. We only uploaded data from 4 mouse brains due to file size limit. Please contact us if you need additional data. 
 
-- 2. The multi-contrast 3D MRI data used for MRH-Nissl (from 4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/asjyh/.
+- 2. The multi-contrast 3D MRI data used for MRH-Nissl (from 4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/eqzbp/.
 
 ### Training target
 The following target histology data resource were obtained from the Allen mouse brain reference and connectivity atlases. 
 
-- 1. Auto-fluorescence (AF) data (10 from 100 mouse brains used in our manuscript) can be downloaded from https://osf.io/nax8y/. Additional AF data can be downloaded from the Allen website (http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI).
+- 1. Auto-fluorescence (AF) data (10 from 100 mouse brains used in our manuscript) can be downloaded from https://osf.io/r5xwm/. Additional AF data can be downloaded from the Allen website (http://help.brain-map.org/display/api/Allen%2BBrain%2BAtlas%2BAPI).
 
-- 2. Neurofilament (NF) data can be downloaded from https://osf.io/n3vwf/
+- 2. Neurofilament (NF) data can be downloaded from https://osf.io/z7s5n/
 
-- 3. Myelin basic protein (MBP) data can be downloaded from https://osf.io/u53cg/
+- 3. Myelin basic protein (MBP) data can be downloaded from https://osf.io/x3qne/
 
-- 4. Nissl data can be downloaded from https://osf.io/hk2pv/
+- 4. Nissl data can be downloaded from https://osf.io/td4nu/
 
 
 ## Output training.mat from MRH_trainingG.m
