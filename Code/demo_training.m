@@ -5,8 +5,11 @@
 % Inferring Maps of Cellular Structures from MRI Signals using Deep Learning 
 % https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 clc;clear; close all;
-% please replace the location by your saved folder last step.
-load_mat =['F:\Code\SRCNN\Submit_elife\traindata.mat'];
+% please replace by the prepared training patches producted from last step.
+% Our exmple training patches from autofluorescence in .mat format 
+% can be downloaded from https://osf.io/fk58t/; Please revise the file
+% name.
+load_mat =['.\traindata.mat'];
 % please refine the channel according to USER selected MRI contrasts
 % numbers from last step.
 input_channel = 67;

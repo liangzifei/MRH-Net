@@ -16,9 +16,7 @@
 % data: is a 3x3xMxN matrix that for nerual network input.
 % label: is a 3x3xN matrix that for neurual network training target.
 %
-% Usage: [data,label] = MRH_trainingG(['R:\zhangj18lab\zhangj18labspace\'...
-%'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\C'],...
-%3,20)
+% Usage: [data,label] = MRH_trainingG(['.\Train_Data'],3,20,['.\AllenPathology2P60.img'])
 %  - Zifei Liang (zifei.liang@nyumc.org)
 % Using code please refer our work: 
 % Inferring Maps of Cellular Structures from MRI Signals using Deep Learning 

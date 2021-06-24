@@ -12,8 +12,7 @@
 clc;clear; close all;
 %please save test data as the following recommended folder.And USER need to
 %replace by their own workspace: under \Test_data
-work_folder = ['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\',...
-    'DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\test\'];
+work_folder = ['.\Test_Data'];
 halfpatch_size = 1;
 stride = 1;
 %Only one subject put in the test folder. sample_num is ready to be modified by

@@ -10,12 +10,12 @@
 
 clc;clear; close all;
 % Please replace by the training data location by USER
-work_folder = ['R:\zhangj18lab\zhangj18labspace\',...
-    'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\train\'];
+work_folder = ['.\Train_Data\Subj\'];
 halfpatch_size = 1;
 stride0 = 20;
-% location of the target histology .img. Please replace the location by
-% USER
-fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
-    '\AllenPathology2TanzilP60.img']);
+% location of the target histology .img. Here we set one autofluorescence as target. 
+% Target can be replaced by the imgs in foder
+% .\Train_Data\autofluorescence\
+
+fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);
 [data,label] = MRH_trainingG(work_folder,halfpatch_size,stride0, fluo_img);
