@@ -14,7 +14,7 @@ work_folder = ['.\Train_Data\Subj\'];
 halfpatch_size = 1;
 stride0 = 20;
 % location of the target histology .img. Here we set one autofluorescence as target. 
-% Target can be replaced by the imgs in foder
+% Target can be replaced by the imgs under
 % .\Train_Data\autofluorescence\
 
 fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);
