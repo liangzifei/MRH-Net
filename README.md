@@ -105,15 +105,13 @@ demo_trainingG.m (call function MRH_trainingG.m)
 >Taken Auto-fluorescence as an example:
 >MRI location in code is:
 ```
-work_folder = ['R:\zhangj18lab\zhangj18labspace\',...
-    'Zifei_Data\HCP\DeepNetIdea\JesseGray\JesseGray20191223\Porcessed\train\'];;
+work_folder = ['.\Train_Data\Subj\'];
 ```
 >All MRI data upload online, specifically, please refer to /Train_Data
 
 >Histology(can replace by USER defined histology) location in code is:
 ```
- fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
-        '\AllenPathology2TanzilP60.img']);
+fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);
  ```
 > Auto-fluorescence data uploaded online, specifically, please refer to /Train_Data
 
