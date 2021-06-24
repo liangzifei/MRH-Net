@@ -255,15 +255,14 @@ Optional:
   from (default):
      %dwi2000 is the diffusion data scanned from b=2000
       dwi2000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi2000.img']);
-    %dwi5000 is diffusion b=5000 data
+     %dwi5000 is diffusion b=5000 data
       dwi5000 = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_Lddm_dwi5000.img']);
       t2MTONOFF = load_untouch_nii([folder_dwi,num2str(sample_img),'\rigidaffine_lddm_t2MTONOFF.img']);
 ```
 >please replace the training analyze target image by your own matched histology data.
 ```
    from (default):
-      fluo_img = load_untouch_nii(['R:\zhangj18lab\zhangj18labspace\Zifei_Data\HCP\DeepNetIdea\Allen_fluorescence',...
-        '\AllenPathology2TanzilP60.img']);
+        fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);
 ```        
 training input and target should be corregistered.
 ## step2. In network training(MRH_training.mlx)
