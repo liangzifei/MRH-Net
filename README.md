@@ -127,7 +127,7 @@ demo_training.m (call function MRH_training.mlx)
 >After running, the network will be saved in .mat format.
 
 >Our trained networks located in folder /network.
->One example of voxel-wise MRH_net using 10 ResBlocks is the following(USER can revise ResBlock length by depth in code demo_training.m depth = 15;):
+>One example of voxel-wise MRH_net using 10 ResBlocks is the following (USER can revise ResBlock length by depth in Code/demo_training.m/ depth = 30):
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Example_Net.jpg)
 
