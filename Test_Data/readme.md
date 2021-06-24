@@ -1,4 +1,7 @@
 # Example of testing data
+Folder list is the following:
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/TestFoder_tree.jpg)
+
 ## Input subjects for MRH_testingG.m
 Testing subject MRI (healthy subject, using gradient table grad_auto.txt) can be downloaded from https://osf.io/uv6ek/
 
