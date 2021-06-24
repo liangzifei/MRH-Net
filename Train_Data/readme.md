@@ -38,20 +38,7 @@ For transfer learning of MBP data, an example .mat file containing about 40,000 
 > (The original histology data used to generate the above data resources is dowloaded from allen database)
 >> https://connectivity.brain-map.org/static/referencedata
 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100140665_130.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142290_133.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/100142355_131.jpg)
-
-'########################################################################################
-### Some of corregistered histology in interpolated JHU P60 space is the following:
-> 
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_132.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized56times_Allen132.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedFA132.jpg)
-
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/nissl2P60_141.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedAllen141.jpg)
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Resized_cropedFA141.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Image_Supp.jpg)
 
 
 
