@@ -1,5 +1,5 @@
 # Example of testing data
-## File list under Test_Data is the following:
+## File list under Test_Data/ is the following:
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/TestFoder_tree.jpg)
 
 ## Input subjects for MRH_testingG.m
