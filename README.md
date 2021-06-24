@@ -36,7 +36,7 @@ Below are several scenarios that MRH-Net and associated resources may be used.
 4) Register data acquired using new MRI methods to the MRI dataset provided here and test its sensitivity and specificity using the histological data as the ground truth. 
 
 ##  MRH-Net files layout
-![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Github_Folder_tree.jpg)
+![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Github_Folder_treeNew.jpg)
 
 Fig. 2: An overview of file organization. 
 
