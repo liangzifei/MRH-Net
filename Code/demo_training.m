@@ -17,5 +17,5 @@ input_channel = 67;
 %as large amount data accessable from allen.
 % Shorter is more resaonable under the condition limited training data offered.
 %3 is tested and verified on MR to myelin network training
-depth = 15;
+depth = 30;
 net = MRH_training(load_mat, input_channel, depth);
