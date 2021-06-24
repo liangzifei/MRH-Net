@@ -154,7 +154,7 @@ demo_testing.m (call function MRH_testing.m)
 
 - Reconstruct slice/volume histology from voxel-wised data using code
 ```
-MRH_recon.m
+/Code/MRH_recon.m
 ```
 >After running, the virtual histology will show up dierctly.(The tool offered slice based generation only, 3D volume generation, USER need loop slices as recommended in code)
 
@@ -163,8 +163,8 @@ MRH_recon.m
 ## Fast demo test (auto-fluorescence) please run:
 >>(Put data files as refered in the code)
 ```
-demo_testing.m 
-MRH_recon.m
+/Code/demo_testing.m 
+/Code/MRH_recon.m
 ```
 # Transfer Learning
 - Transfer Learning is prepared under the situation that no much histology are avaliable. For example, we have many auto-fluorescence, however, myelin/axon are in shortage. The idea here is Transfer learning from pre-trained MRH-autofluorescence network. It is peformed principally with the same training and testing protocol, except the training layers and hyperparameters setting in /TransferLearning/MRH_training_transfer.mlx. 
@@ -201,7 +201,7 @@ pre_network = ['.\network\net_30layerV3Res_HRJG_allMRIs_Fluo.mat'];
 ## Fast demo test(myelin) please run:
 
 ```
-/Transfer_Learning/demo_fastTest_Trans.m
+/Code/Transfer_Learning/demo_fastTest_Trans.m
 ```
 ## Exmple results from our work are shown as the following:
 
