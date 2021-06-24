@@ -9,7 +9,7 @@ The file list under Train_Data is following:
 
 ## Input subjects for MRH_trainingG.m
 ### Training input
-- 1. The multi-contrast 3D MRI data used for MRH-AF/NF/MBP (4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/8jh7b/. We only uploaded data from 4 mouse brains due to file size limit. Please contact us if you need additional data. 
+- 1. The multi-contrast 3D MRI data used for MRH-AF/NF/MBP (4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/jnvg5/. We only uploaded data from 4 mouse brains due to file size limit. Please contact us if you need additional data. 
 
 - 2. The multi-contrast 3D MRI data used for MRH-Nissl (from 4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/asjyh/.
 
