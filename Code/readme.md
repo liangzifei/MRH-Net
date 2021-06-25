@@ -8,8 +8,8 @@
 ## Fast demo test (auto-fluorescence) please run:
 >>(Put data files as refered in the code)
 ```
-demo_testing.m 
-MRH_recon.m
+/Code/demo_testing.m 
+/Code/MRH_recon.m
 ```
 # Transfer Learning
  Detail transfer learning execution can also refer to Usage: step1-5. 
@@ -25,4 +25,4 @@ pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ## Fast transfer learning demo test (myelin) please run:
 
 ```
-/Transfer_Learning/demo_fastTest_Trans.m
+Code/Transfer_Learning/demo_fastTest_Trans.m
