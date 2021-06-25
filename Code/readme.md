@@ -11,8 +11,8 @@
 demo_testing.m 
 MRH_recon.m
 ```
-
-## Detail transfer learning execution can also refer to Usage: step1-5. 
+# Transfer Learning
+ Detail transfer learning execution can also refer to Usage: step1-5. 
 - Except that the network training needs one pre-trained network as generic network:
 ```
 net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
