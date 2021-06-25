@@ -6,7 +6,7 @@
 - **step4.** generate virtual histology from testing data voxel-by-voxel using trained neruo-network from step2--- demo_testing (call MRH_testing.mlx).
 - **step5.** reconstruct the whole brain/one slice virual histology from voxel data---MRH_recon.m.
 ## Fast demo test (auto-fluorescence) please run:
->(Please put data files as refered in the code)
+>(Please put data files as refered)
 ```
 /Code/demo_testing.m 
 /Code/MRH_recon.m
@@ -23,6 +23,6 @@ pre_network = ['./network/net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 - Our prepared training .mat for transfer learning is uploaded online, please refer to /Train_data.
 
 ## Fast transfer learning demo test (myelin) please run:
->(Please put data files as refered in the code)
+>(Please put data files as refered)
 ```
 /Code/Transfer_Learning/demo_fastTest_Trans.m
