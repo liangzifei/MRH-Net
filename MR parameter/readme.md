@@ -1,9 +1,1 @@
-# Two gradient tables are used in our work.
-## 1. dRMI gradient table used for training MR_autoflourance, MR_axon and MR_myelin networks(2 b values, 2000 and 5000).
-```
-grad_auto.txt
-```
-## 2. dRMI gradient table used for training MR_nissl network(3 b_value, each scan using the same gradient).
-```
-grad_nissl.txt
-```
+Here are the imaging parameters used to acquire 3D multi-contrast MRI data used in our experiments. The 3D T2 and MT data were acquired using the Bruker RARE sequence. Please see detailed imaging parameters in the method files. The 3D diffusion MRI data were acquired using a custom-developed gradient and spin echo (GRASE) sequence. The sequence source files can be found in the GRASE.zip file and compiled on Bruker Paravision 6. The two methods files (dwi_b2000_method and dwi_5000_method) contain the imaging parameters used. For details on the GRASE sequence, please see our paper (doi: 10.1002/mrm.22426). 
