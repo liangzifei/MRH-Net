@@ -142,6 +142,7 @@ depth = 30;                     <--- depth of the network to be trained.
   - The demo_training will then call MRH_training, which typically takes several hours on our system. 
   
 >The trained network will be saved in .mat format. Our trained networks can be found in folder /network. One example of voxel-wise MRH_net using 5 ResBlocks is the following (USER can revise ResBlock length by depth in Code/demo_training.m/ depth = 30):
+
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Network_5layers.jpg)
 
 >One exmple of a smoothed training curve from MR_AF is shwon below:
