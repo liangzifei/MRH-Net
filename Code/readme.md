@@ -23,6 +23,6 @@ pre_network = ['./network/net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 - Our prepared training .mat for transfer learning is uploaded online, please refer to /Train_data.
 
 ## Fast transfer learning demo test (myelin) please run:
-
+>(Please put data files as refered in the code)
 ```
-Code/Transfer_Learning/demo_fastTest_Trans.m
+/Code/Transfer_Learning/demo_fastTest_Trans.m
