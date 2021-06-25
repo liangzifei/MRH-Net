@@ -1,4 +1,4 @@
-# An ntroduction to MRH-Net
+# 1. An introduction to MRH-Net
 
 MRH-Net (for magnetic resonance histology-Net) is a tool developed to transform mouse brain magnetic resonance imaging (MRI) data into maps of specific cellular structures (e.g. axon and myelin). 
 
@@ -26,7 +26,7 @@ While the first assumption is true for most MRI data, it is often difficult to k
 
 Fig. 1: The workflow of MRH-Net. The basic network was trained using co-registered 3D MRI and autofluorescence (AF) data of adult C57BL mouse brains. The AF dataset contains data from 100 subjects from the Allen Brain Connectivity Project (https://connectivity.brain-map.org/). The MRI data contains multi-contrast MRI data (T2, magnetization transfer, and diffusion-weighted) from 6 post-mortem mouse brains. The network, MRH-AF, trained using the data, can then take new MRI data acquired using the same protocol to generate 3D pseudo-AF data. For neurofilament (NF) and myelin basic protein (MBP) data, the Allen reference dataset only contains single subject data (http://connectivity.brain-map.org/static/referencedata). We registered these histological images to MRI data and used transfer learning methods to generate new networks based on the existing MRH-AF network. The resulting MRH-NF and MRH-MBP networks are intended to translate multi-contrast MRI data to pseudo-NF and MBP images.   
 
-# How to use MRH-Net?
+# 2. How to use MRH-Net?
 
 Below are several scenarios that MRH-Net and associated resources may be used.
 
@@ -40,7 +40,7 @@ Below are several scenarios that MRH-Net and associated resources may be used.
 
 Fig. 2: An overview of file organization. 
 
-# What are the limitations of MRH-Net?
+# 3. What are the limitations of MRH-Net?
 
 1) The current MRH-Nets were trained limited MRI and histological data from normal adult C57BL6 mouse brains (2 month old). Its performance for brains with pathology has not been evaluated. Additional training data (from different strains, ages, and pathology) will likely further improve the performance of MRH-Nets. 
 2) MRH-Nets may not work for MRI data acquired using different MRI scanners or with different acquisition parameters. However, it is relatively easy to co-registered MRI data acquired from different MRI scanners and retrain the network. 
@@ -50,7 +50,7 @@ Fig. 2: An overview of file organization.
 "Inferring Maps of Cellular Structures from MRI Signals using Deep Learning"
 https://www.biorxiv.org/content/10.1101/2020.05.01.072561v1
 
-# Requirements
+# 4. Requirements
 - Windows 10
 - Matlab version > 2019b 
 - Deep learning toolbox.
@@ -87,7 +87,51 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
            DeviceSupported: 1
             DeviceSelected: 1
 ```
-# Usage
+# 5. Procedures
+
+## 5.1 Data Preparation
+
+   MRH takes co-registered MRI and target histology for training and testing. You can find our 3D multi-contrast MRI and histology data in the Train_Data directory. Details on MRI data acquistion, source of histology data, and co-registration steps can be found in our manuscript (doi: https://doi.org/10.1101/2020.05.01.072561). 
+   
+
+## 5.2 Network Training
+
+   Once MRI and target histological data are prepared, use demo_trainingG.m in Matlab. Please insert the data files as explained in the code. This will prepare training samples for the next step.
+   - prepare training data, use code 
+```
+demo_trainingG.m (call function MRH_trainingG.m)
+> (please put the data and files as recommedded in the code)
+```
+>The training requires MRI data and target histological data. For example, in training the MRH-AF network, 
+
+>The location of the MRI data was added in the code as:
+```
+work_folder = ['.\Train_Data\Subj\'];
+```
+
+
+>The location of the histological data was added in the code as :
+```
+fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);
+ ```
+> We have uploaded several MRI and histological datasets online for free download. Please see /Train_Data
+
+> After running, the prepared training data will be saved in .mat file that consists: data as input MRI and label as target histology.
+
+>One example .mat file located in folder /Train_Data
+
+   The training samples will then be used to train a neural network using demo_training.m in Matlab (it calls MRH_training.mlx).
+   
+## 5.3 Network Testing
+
+  Testing data can be generated using demo_testingG in Matlab (it calls MRH_testingG.m). The network trained can be applied to the testing data using demo_testing in Matlab (it calls MRH_testing.mlx). 
+  
+## 5.4 Mapping virtual histology
+
+   To reconstruct the whole brain or single slice virtual histology from single voxel data, please use MRH_recon.m. 
+   
+   
+   
 - **step1.** generate training samples --- demo_trainingG (call MRH_trainingG.m);
 
 - **step2.** training a neural-network from training samples --- demo_training (call MRH_training.mlx);
@@ -98,30 +142,7 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
 
 - **step5.** reconstruct the whole brain/one slice virual histology from voxel data --- MRH_recon.m.
 # Training 
-> (Our prepared training resources under /Train_data)
-- prepare training data, use code 
-```
-demo_trainingG.m (call function MRH_trainingG.m)
-> (please put the data and files as recommedded in the code)
-```
->The training preparison require two parts: MRI data and target histology.
 
->Taken Auto-fluorescence as an example:
->MRI location in code is:
-```
-work_folder = ['.\Train_Data\Subj\'];
-```
->All MRI data upload online, specifically, please refer to /Train_Data
-
->Histology(can replace by USER defined histology) location in code is:
-```
-fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);
- ```
-> Auto-fluorescence data uploaded online, specifically, please refer to /Train_Data
-
->After running, the prepared training data will be saved in .mat that consists: data as input MRI and label as target histology.
-
->One example .mat file located in folder /Train_Data
 
 - training the network using code
 
@@ -216,7 +237,7 @@ pre_network = ['.\network\net_30layerV3Res_HRJG_allMRIs_Fluo.mat'];
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Demyelin.jpg)
 
 
-#### Training on health mouse subjects, testing on sas4-/- mouse strain. Results from MRH_nissl.
+#### Training on health mouse subjects, testing on Sas4 mouse strain. Results from MRH_nissl.
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Sas4_MRH_nissl.jpg)
 
@@ -233,7 +254,7 @@ Please refer to our gradient table(under /Grad_table) and data prepared online(r
 
 # Prepare your own data(with your own training)
 ## Specific steps to prepare yourself training and testing
-Before training the MR and histology data needs to be coregistered. The tools used to accomplish MRI_histology coregistration is the following list: 
+Before training the MR and histology data needs to be cooregistered. The tools used to accomplish MRI_histology corregistration is the following list: 
 
 ```
 1. MRIStudio https://cmrm.med.jhmi.edu/
