@@ -1,4 +1,4 @@
-# Running code please refer the main readme file.
+# Running code please refer Usage and the main readme file.
 # Usage
 - **step1.** generate training samples---demo_trainingG (call MRH_trainingG.m);
 - **step2.** training a neural-network from training samples---demo_training (call MRH_training.mlx);
