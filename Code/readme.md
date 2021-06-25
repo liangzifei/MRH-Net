@@ -6,7 +6,7 @@
 - **step4.** generate virtual histology from testing data voxel-by-voxel using trained neruo-network from step2--- demo_testing (call MRH_testing.mlx).
 - **step5.** reconstruct the whole brain/one slice virual histology from voxel data---MRH_recon.m.
 ## Fast demo test (auto-fluorescence) please run:
->>(Put data files as refered in the code)
+>(Please put data files as refered in the code)
 ```
 /Code/demo_testing.m 
 /Code/MRH_recon.m
