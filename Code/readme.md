@@ -18,7 +18,7 @@
 net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
 
 default pre_network is trained from autofluorescence in our paper.
-pre_network = ['net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
+pre_network = ['./network/net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
 - Our prepared training .mat for transfer learning is uploaded online, please refer to /Train_data.
 
