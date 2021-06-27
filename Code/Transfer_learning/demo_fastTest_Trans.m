@@ -1,5 +1,5 @@
-% Fast test Transfer Learning trained network. 
-%After running the demo, the network output shows Myelin contrast
+% Fast test demo of Transfer Learning trained network. 
+%After running this demo, the network output shows Myelin contrast
 
 %  - Zifei Liang (zifei.liang@nyumc.org)
 
