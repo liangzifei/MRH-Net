@@ -44,6 +44,7 @@ Additional example of some super-high resolution images coregistration is the fo
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Image_Supp.jpg)
 
+The overlap color image is the following:
 
 
 
