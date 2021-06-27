@@ -100,9 +100,9 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
 
 ## 5.2 Network Training
 
-   - Once co-registered MRI and target histological data are ready, use demo_trainingG.m in Matlab to prepare training samples for the next step.
+   - Once co-registered MRI and target histological data are ready, use demo_trainingPrep.m in Matlab to prepare training samples for the next step.
 
->For example, in training the MRH-AF network, the demo_trainingG.m file needs input at the following places.
+>For example, in training the MRH-AF network, the demo_trainingPrep.m file needs input at the following places.
 ```
 work_folder = ['.\Train_Data\Subj\']; <--- directory of subject data used for training.
 halfpatch_size = 1;                   <--- the size of individual patch is 2*halfpatch_size+1. 
@@ -113,7 +113,7 @@ stride0 = 20;                         <--- distance in pixels between patches. S
 fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img']);   <--- location of target histological data. Here, we used the 3D AF data.
 ```
 
-- demo_traingingG.m then call MRH_trainingG. In MRH_traingG.m, please specify data with different MR contrasts.  In our experiments, we have multiple data files. The dwi2000 contains 30-direction diffusion MRI data acquired with a diffusion weighting (b-value) of 2,000 s/mm^2, the dwi5000 contains 30-direction diffusion MRI data acquired with a b-value of 5,000 s/mm^2, the t2MTONOFF contains T2-weighted, non-MT-weighted, and MT-weighted images, fractional anisotropy (FA) images calculated from dwi2000, and a mask image for the brain region. 
+- demo_traingingPrep.m then call MRH_trainingPrep. In MRH_traingPrep.m, please specify data with different MR contrasts.  In our experiments, we have multiple data files. The dwi2000 contains 30-direction diffusion MRI data acquired with a diffusion weighting (b-value) of 2,000 s/mm^2, the dwi5000 contains 30-direction diffusion MRI data acquired with a b-value of 5,000 s/mm^2, the t2MTONOFF contains T2-weighted, non-MT-weighted, and MT-weighted images, fractional anisotropy (FA) images calculated from dwi2000, and a mask image for the brain region. 
 
 ```
     dwi2000 = load_untouch_nii([folder_dwi,file_list(sample_img).name,'\rigidaffine_Lddm_dwi2000.img']);  <--- dwi2000 data
@@ -125,7 +125,7 @@ fluo_img = load_untouch_nii(['.\Train_Data\Allen_Autofluo\AllenPathology2P60.img
 
 > We have uploaded several MRI and histological datasets online, which can be downloaded for free. Please see README in /Train_Data
 
-> Once demo_trainingG.m finishes, the prepared training data will be saved in a .mat file. One example .mat file can be founded in folder /Train_Data
+> Once demo_trainingPrep.m finishes, the prepared training data will be saved in a .mat file. One example .mat file can be founded in folder /Train_Data
 
    - The training samples will then be used to train a neural network using demo_training.m in Matlab. Please update the following parameters in the code. 
 
@@ -151,7 +151,7 @@ depth = 30;                     <--- depth of the network to be trained.
 
 ## 5.3 Network Testing
 
-  Testing data can be generated using demo_testingG in Matlab (it calls MRH_testingG.m). The network trained can be applied to the testing data using demo_testing in Matlab (it calls MRH_testing.mlx). Please update the following parameters:
+  Testing data can be generated using demo_testingPrep in Matlab (it calls MRH_testingPrep.m). The network trained can be applied to the testing data using demo_testing in Matlab (it calls MRH_testing.mlx). Please update the following parameters:
 
 ```
      load_data = '.\Test_Data\testdataPatch_mouse.mat';   <--- the testing data.
