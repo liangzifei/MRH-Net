@@ -30,7 +30,7 @@ The output of MRH_trainingG.m is the prepared data and label, and saved in .mat 
 
 An example .mat file (containing 40,000 patches generated from matched MRI and auto-fluorescence data) can be downloaded from https://osf.io/fk58t/
 
-## Output training .mat from MRH_trainingPrep.m for Transfer Learning
+## Output training .mat from MRH_trainingPrep_Trans.m for Transfer Learning
 For transfer learning of MBP data, an example .mat file containing about 40,000 patches generated from matched MRI and MBP histology can be downloaded from https://osf.io/rw42b/
 
 
