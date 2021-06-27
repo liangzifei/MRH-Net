@@ -44,7 +44,7 @@ Additional example of some super-high resolution images coregistration is the fo
 
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/Image_Supp.jpg)
 
-The overlapped FA and Nissl is the following:
+The overlapped FA and Nissl is the following (high quality file can be downloaded from https://osf.io/5xr43/):
 
 ![](https://github.com/liangzifei/MRH-Net/blob/main/image/BlueNissl-FA-GrayNissl_small.jpg)
 
