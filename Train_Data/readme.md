@@ -7,7 +7,7 @@ The file list under Train_Data is the following:
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/TrainFoder_tree.jpg)
 
 
-## Input subjects for MRH_trainingG.m
+## Input subjects for MRH_trainingPrep.m
 ### Training input
 - 1. The multi-contrast 3D MRI data used for MRH-AF/NF/MBP (4 out of a total of 6 mouse brains) can be downloaded from https://osf.io/jnvg5/. We only uploaded data from 4 mouse brains due to file size limit. Please contact us if you need additional data. 
 
@@ -25,12 +25,12 @@ The following target histology data resource were obtained from the Allen mouse 
 - 4. Nissl data can be downloaded from https://osf.io/td4nu/
 
 
-## Output training.mat from MRH_trainingG.m
+## Output training.mat from MRH_trainingPrep.m
 The output of MRH_trainingG.m is the prepared data and label, and saved in .mat format (Matlab). 
 
 An example .mat file (containing 40,000 patches generated from matched MRI and auto-fluorescence data) can be downloaded from https://osf.io/fk58t/
 
-## Output training .mat from MRH_trainingG.m for Transfer Learning
+## Output training .mat from MRH_trainingPrep.m for Transfer Learning
 For transfer learning of MBP data, an example .mat file containing about 40,000 patches generated from matched MRI and MBP histology can be downloaded from https://osf.io/rw42b/
 
 
