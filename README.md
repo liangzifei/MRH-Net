@@ -93,7 +93,7 @@ https://www.mathworks.com/matlabcentral/fileexchange/8797-tools-for-nifti-and-an
 
    MRH takes co-registered MRI and target histology for training and testing. You can find our 3D multi-contrast MRI and histology data in the Train_Data directory. Details on MRI data acquistion, source of histology data, and co-registration steps can be found in our manuscript (doi: https://doi.org/10.1101/2020.05.01.072561). If you plan to use our trained networks without modifications, it is important to use the same image acquisition protocols.
    
-   The figure below gives examples of corregistered MRI_histology. Here, we use landmarks to help evaluate the accuracy of registration.
+   The figure below gives examples of coregistered MRI_histology. Here, we use landmarks to help evaluate the accuracy of registration.
    
 ![](https://github.com/liangzifei/MRH_net_submit/blob/main/image/CorregisteredMRI_histology.jpg)
    
