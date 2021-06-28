@@ -1,8 +1,8 @@
 # Running code please refer Usage and the main readme file.
 # Usage
-- **step1.** generate training samples <---demo_trainingG (call MRH_trainingPrep.m);
+- **step1.** generate training samples <---demo_trainingPrep (call MRH_trainingPrep.m);
 - **step2.** training a neural-network from training samples <---demo_training (call MRH_training.mlx);
-- **step3.** generate testing data <---demo_testingG (call MRH_testingPrep.m);
+- **step3.** generate testing data <---demo_testingPrep (call MRH_testingPrep.m);
 - **step4.** generate virtual histology from testing data voxel-by-voxel using trained neruo-network from step2 <--- demo_testing (call MRH_testing.mlx).
 - **step5.** reconstruct the whole brain/one slice virual histology from voxel data <---MRH_recon.m.
 ## Fast demo test (auto-fluorescence) please run:
