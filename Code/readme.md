@@ -20,7 +20,7 @@ net = MRH_training_Transfer(load_mat, networkDepth, pre_network);
 default pre_network is trained from autofluorescence in our paper.
 pre_network = ['./network/net_30layerV3Res_HRJG_allMRIs_ave2000fluo.mat'];
 ```
-- Our prepared training .mat for MBP transfer learning can be downloaded from /Train_data.
+- Our prepared training .mat for MBP transfer learning is saved under /Train_data.
 
 ## Fast transfer learning demo test (myelin) please run:
 >(Please put data files as refered)
