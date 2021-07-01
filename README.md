@@ -136,7 +136,7 @@ input_channel = 67;             <--- total number of image contrasts.
 %depth: 30 is used in the paper for auto-fluorescence training task, 
 %as large amount data accessable from allen.
 % Shorter is preferred under the condition limited training data offered.
-%3 has been tested on MR to myelin network training
+% We have tested depth=3 on MR to myelin network training
 depth = 30;                     <--- depth of the network to be trained. 
 ```
   - The demo_training will then call MRH_training, which typically takes several hours on our system. 
