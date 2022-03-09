@@ -224,3 +224,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
+# Cite
+
+Liang Z, Lee CH, Arefin TM, et al. Virtual mouse brain histology from multi-contrast MRI via deep learning. Elife. 2022;11:e72331. Published 2022 Jan 28. doi:10.7554/eLife.72331
